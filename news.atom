@@ -1,0 +1,1726 @@
+<?xml version="1.0" encoding="utf-8" ?>
+<feed xml:lang="en-US" xmlns="http://www.w3.org/2005/Atom">
+  <id>http://capedwarf.org/</id>
+  <title>CapeDwarf News</title>
+  <updated>2015-07-27T13:31:16+00:00</updated>
+  <link href="http://capedwarf.org/news.atom" rel="self" type="application/atom+xml" />
+  <link href="http://capedwarf.org/" rel="alternate" type="text/html" />
+  <entry>
+    <id>http://capedwarf.org/news/2015/07/27/FinalFinally/</id>
+    <title>Finally 2.0.0.Final version / release</title>
+    <updated>2015-07-27T13:31:16+00:00</updated>
+    <published>2015-07-27T12:04:00+01:00</published>
+    <link href="http://capedwarf.org/news/2015/07/27/FinalFinally/" rel="alternate" type="text/html" />
+    <author>
+      <name>Ales Justin</name>
+    </author>
+    <category term="announcement"></category>
+    <category term="release"></category>
+    <summary>
+      
+      
+      
+      With no reported major issues with our CR releases, I finally tagged and released 2.0.0.Final.
+      
+      
+      Download it here:
+      
+      
+      
+      
+      http://download.jboss.org/capedwarf/CapeDwarf_WildFly_2.0.0.Final.zip
+      
+      
+      
+      
+      And the notes:
+      
+      
+      
+      
+      https://issues.jboss.org/secure/ReleaseNote.jspa?projectId=12311321&amp;version=12326875
+      
+      
+      
+      
+      Feedback welcome as always!
+      
+      
+      ...
+    </summary>
+    <content type="html">
+      &lt;div id=&quot;preamble&quot;&gt;
+      &lt;div class=&quot;sectionbody&quot;&gt;
+      &lt;div class=&quot;paragraph&quot;&gt;
+      &lt;p&gt;With no reported major issues with our CR releases, I finally tagged and released 2.0.0.Final.&lt;/p&gt;
+      &lt;/div&gt;
+      &lt;div class=&quot;paragraph&quot;&gt;
+      &lt;p&gt;Download it here:&lt;/p&gt;
+      &lt;/div&gt;
+      &lt;div class=&quot;ulist&quot;&gt;
+      &lt;ul&gt;
+      &lt;li&gt;
+      &lt;p&gt;&lt;a href=&quot;http://download.jboss.org/capedwarf/CapeDwarf_WildFly_2.0.0.Final.zip&quot;&gt;http://download.jboss.org/capedwarf/CapeDwarf_WildFly_2.0.0.Final.zip&lt;/a&gt;&lt;/p&gt;
+      &lt;/li&gt;
+      &lt;/ul&gt;
+      &lt;/div&gt;
+      &lt;div class=&quot;paragraph&quot;&gt;
+      &lt;p&gt;And the notes:&lt;/p&gt;
+      &lt;/div&gt;
+      &lt;div class=&quot;ulist&quot;&gt;
+      &lt;ul&gt;
+      &lt;li&gt;
+      &lt;p&gt;&lt;a href=&quot;https://issues.jboss.org/secure/ReleaseNote.jspa?projectId=12311321&amp;amp;version=12326875&quot;&gt;https://issues.jboss.org/secure/ReleaseNote.jspa?projectId=12311321&amp;amp;version=12326875&lt;/a&gt;&lt;/p&gt;
+      &lt;/li&gt;
+      &lt;/ul&gt;
+      &lt;/div&gt;
+      &lt;div class=&quot;paragraph&quot;&gt;
+      &lt;p&gt;Feedback welcome as always!&lt;/p&gt;
+      &lt;/div&gt;
+      &lt;/div&gt;
+      &lt;/div&gt;
+    </content>
+  </entry>
+  <entry>
+    <id>http://capedwarf.org/news/2015/03/17/FinegrainedAuth/</id>
+    <title>Fine-grained authentication configuration and fixed security constraint handling</title>
+    <updated>2015-07-27T13:31:16+00:00</updated>
+    <published>2015-03-17T12:04:00+01:00</published>
+    <link href="http://capedwarf.org/news/2015/03/17/FinegrainedAuth/" rel="alternate" type="text/html" />
+    <author>
+      <name>Ales Justin</name>
+    </author>
+    <category term="announcement"></category>
+    <category term="release"></category>
+    <summary>
+      
+      
+      
+      There was a small bug on how we handled security constraints&#8201;&#8212;&#8201;it should re-direct you to login page in case of non-authorized access.
+      This is now fixed. While we also added fine-grained configuration of authorization mechanism, and moved default to GAE/CapeDwarf mechanism.
+      
+      
+      I&#8217;ve also created new Docker image, with this release, under "alesj/capedwarf".
+      
+      
+      
+      
+      https://github.com/capedwarf/capedwarf-testsuite/blob/master/docker/Dockerfile
+      
+      
+      
+      
+      Download latest release:
+      
+      
+      
+      
+      http://download.jboss.org/capedwarf/CapeDwarf_WildFly_2.0.0.CR6.zip
+      
+      
+      
+      
+      And the notes:
+      
+      
+      
+      
+      https://issues.jboss.org/secure/ReleaseNote.jspa?projectId=12311321&amp;version=12326489
+      
+      
+      
+      
+      Feedback welcome as always!
+      
+      
+      ...
+    </summary>
+    <content type="html">
+      &lt;div id=&quot;preamble&quot;&gt;
+      &lt;div class=&quot;sectionbody&quot;&gt;
+      &lt;div class=&quot;paragraph&quot;&gt;
+      &lt;p&gt;There was a small bug on how we handled security constraints&amp;#8201;&amp;#8212;&amp;#8201;it should re-direct you to login page in case of non-authorized access.
+      This is now fixed. While we also added fine-grained configuration of authorization mechanism, and moved default to GAE/CapeDwarf mechanism.&lt;/p&gt;
+      &lt;/div&gt;
+      &lt;div class=&quot;paragraph&quot;&gt;
+      &lt;p&gt;I&amp;#8217;ve also created new Docker image, with this release, under &quot;alesj/capedwarf&quot;.&lt;/p&gt;
+      &lt;/div&gt;
+      &lt;div class=&quot;ulist&quot;&gt;
+      &lt;ul&gt;
+      &lt;li&gt;
+      &lt;p&gt;&lt;a href=&quot;https://github.com/capedwarf/capedwarf-testsuite/blob/master/docker/Dockerfile&quot;&gt;https://github.com/capedwarf/capedwarf-testsuite/blob/master/docker/Dockerfile&lt;/a&gt;&lt;/p&gt;
+      &lt;/li&gt;
+      &lt;/ul&gt;
+      &lt;/div&gt;
+      &lt;div class=&quot;paragraph&quot;&gt;
+      &lt;p&gt;Download latest release:&lt;/p&gt;
+      &lt;/div&gt;
+      &lt;div class=&quot;ulist&quot;&gt;
+      &lt;ul&gt;
+      &lt;li&gt;
+      &lt;p&gt;&lt;a href=&quot;http://download.jboss.org/capedwarf/CapeDwarf_WildFly_2.0.0.CR6.zip&quot;&gt;http://download.jboss.org/capedwarf/CapeDwarf_WildFly_2.0.0.CR6.zip&lt;/a&gt;&lt;/p&gt;
+      &lt;/li&gt;
+      &lt;/ul&gt;
+      &lt;/div&gt;
+      &lt;div class=&quot;paragraph&quot;&gt;
+      &lt;p&gt;And the notes:&lt;/p&gt;
+      &lt;/div&gt;
+      &lt;div class=&quot;ulist&quot;&gt;
+      &lt;ul&gt;
+      &lt;li&gt;
+      &lt;p&gt;&lt;a href=&quot;https://issues.jboss.org/secure/ReleaseNote.jspa?projectId=12311321&amp;amp;version=12326489&quot;&gt;https://issues.jboss.org/secure/ReleaseNote.jspa?projectId=12311321&amp;amp;version=12326489&lt;/a&gt;&lt;/p&gt;
+      &lt;/li&gt;
+      &lt;/ul&gt;
+      &lt;/div&gt;
+      &lt;div class=&quot;paragraph&quot;&gt;
+      &lt;p&gt;Feedback welcome as always!&lt;/p&gt;
+      &lt;/div&gt;
+      &lt;/div&gt;
+      &lt;/div&gt;
+    </content>
+  </entry>
+  <entry>
+    <id>http://capedwarf.org/news/2015/01/06/ManagedVMs/</id>
+    <title>Managed VMs, warmup request, HTTP session handling and WildFly 8.2.0.Final</title>
+    <updated>2015-07-27T13:31:16+00:00</updated>
+    <published>2015-01-06T12:04:00+01:00</published>
+    <link href="http://capedwarf.org/news/2015/01/06/ManagedVMs/" rel="alternate" type="text/html" />
+    <author>
+      <name>Ales Justin</name>
+    </author>
+    <category term="announcement"></category>
+    <category term="release"></category>
+    <summary>
+      
+      
+      
+      It&#8217;s been a while since our last release. But that doesn&#8217;t mean we haven&#8217;t been busy.
+      With Google App Engine&#8217;s ManagedVMs getting more and more traction, we figured out we needed to support that too.
+      And voila, a new CapeDwarf Managed project was created.
+      
+      
+      But in order to not duplicate the code between Managed and Blue, some refactoring was required, hence the delay.
+      And along the way - while implementing Managed - we saw we were also missing a few things in Blue as well: warmup request and GAE-like HTTP session handling.
+      
+      
+      Also, we moved to WildFly 8.2.0.Final.
+      
+      
+      To cut the long story short, here is...
+    </summary>
+    <content type="html">
+      &lt;div id=&quot;preamble&quot;&gt;
+      &lt;div class=&quot;sectionbody&quot;&gt;
+      &lt;div class=&quot;paragraph&quot;&gt;
+      &lt;p&gt;It&amp;#8217;s been a while since our last release. But that doesn&amp;#8217;t mean we haven&amp;#8217;t been busy.
+      With Google App Engine&amp;#8217;s ManagedVMs getting more and more traction, we figured out we needed to support that too.
+      And voila, a new &lt;a href=&quot;https://github.com/capedwarf/capedwarf-managed&quot;&gt;CapeDwarf Managed&lt;/a&gt; project was created.&lt;/p&gt;
+      &lt;/div&gt;
+      &lt;div class=&quot;paragraph&quot;&gt;
+      &lt;p&gt;But in order to not duplicate the code between Managed and Blue, some refactoring was required, hence the delay.
+      And along the way - while implementing Managed - we saw we were also missing a few things in Blue as well: warmup request and GAE-like HTTP session handling.&lt;/p&gt;
+      &lt;/div&gt;
+      &lt;div class=&quot;paragraph&quot;&gt;
+      &lt;p&gt;Also, we moved to WildFly 8.2.0.Final.&lt;/p&gt;
+      &lt;/div&gt;
+      &lt;div class=&quot;paragraph&quot;&gt;
+      &lt;p&gt;To cut the long story short, here is the latest Blue download:&lt;/p&gt;
+      &lt;/div&gt;
+      &lt;div class=&quot;ulist&quot;&gt;
+      &lt;ul&gt;
+      &lt;li&gt;
+      &lt;p&gt;&lt;a href=&quot;http://download.jboss.org/capedwarf/CapeDwarf_WildFly_2.0.0.CR5.zip&quot;&gt;http://download.jboss.org/capedwarf/CapeDwarf_WildFly_2.0.0.CR5.zip&lt;/a&gt;&lt;/p&gt;
+      &lt;/li&gt;
+      &lt;/ul&gt;
+      &lt;/div&gt;
+      &lt;div class=&quot;paragraph&quot;&gt;
+      &lt;p&gt;And the release notes:&lt;/p&gt;
+      &lt;/div&gt;
+      &lt;div class=&quot;ulist&quot;&gt;
+      &lt;ul&gt;
+      &lt;li&gt;
+      &lt;p&gt;&lt;a href=&quot;https://issues.jboss.org/secure/ReleaseNote.jspa?projectId=12311321&amp;amp;version=12325795&quot;&gt;https://issues.jboss.org/secure/ReleaseNote.jspa?projectId=12311321&amp;amp;version=12325795&lt;/a&gt;&lt;/p&gt;
+      &lt;/li&gt;
+      &lt;/ul&gt;
+      &lt;/div&gt;
+      &lt;div class=&quot;paragraph&quot;&gt;
+      &lt;p&gt;More about Managed in the future blog post&amp;#8201;&amp;#8212;&amp;#8201;asap!&lt;/p&gt;
+      &lt;/div&gt;
+      &lt;div class=&quot;paragraph&quot;&gt;
+      &lt;p&gt;Feedback welcome as always!&lt;/p&gt;
+      &lt;/div&gt;
+      &lt;/div&gt;
+      &lt;/div&gt;
+    </content>
+  </entry>
+  <entry>
+    <id>http://capedwarf.org/news/2014/09/23/ConcurrentTransactions/</id>
+    <title>Concurrent transactions, their tests and fixes</title>
+    <updated>2015-07-27T13:31:16+00:00</updated>
+    <published>2014-09-23T12:04:00+01:00</published>
+    <link href="http://capedwarf.org/news/2014/09/23/ConcurrentTransactions/" rel="alternate" type="text/html" />
+    <author>
+      <name>Ales Justin</name>
+    </author>
+    <category term="announcement"></category>
+    <category term="release"></category>
+    <summary>
+      
+      
+      
+      While playing with some Endpoints GAE example app, I noticed our non-XG transactions weren’t following the concurrent threads limits&#8201;&#8212;&#8201;only one transaction per entity group allowed. This quickly shows how you easily miss things when you don’t have proper tests.
+      
+      
+      In our case setting this concurrency contention is not as easy as it sounds. But … luckily at JBoss we have a tool called Byteman, which is exactly what we’re looking for (and it even came from initially testing concurrency on transactions).
+      
+      
+      And, as I expected from Aslak, Arquillian already had Byteman support integrated. OK, to be honest, it did need some minor...
+    </summary>
+    <content type="html">
+      &lt;div id=&quot;preamble&quot;&gt;
+      &lt;div class=&quot;sectionbody&quot;&gt;
+      &lt;div class=&quot;paragraph&quot;&gt;
+      &lt;p&gt;While playing with some Endpoints GAE example app, I noticed our non-XG transactions weren’t following the concurrent threads limits — only one transaction per entity group allowed. This quickly shows how you easily miss things when you don’t have proper tests.&lt;/p&gt;
+      &lt;/div&gt;
+      &lt;div class=&quot;paragraph&quot;&gt;
+      &lt;p&gt;In our case setting this concurrency contention is not as easy as it sounds. But … luckily at JBoss we have a tool called Byteman, which is exactly what we’re looking for (and it even came from initially testing concurrency on transactions).&lt;/p&gt;
+      &lt;/div&gt;
+      &lt;div class=&quot;paragraph&quot;&gt;
+      &lt;p&gt;And, as I expected from Aslak, Arquillian already had Byteman support integrated. OK, to be honest, it did need some minor changes to make it work as expected. :-)&lt;/p&gt;
+      &lt;/div&gt;
+      &lt;div class=&quot;paragraph&quot;&gt;
+      &lt;p&gt;Here is the latest download:&lt;/p&gt;
+      &lt;/div&gt;
+      &lt;div class=&quot;ulist&quot;&gt;
+      &lt;ul&gt;
+      &lt;li&gt;
+      &lt;p&gt;&lt;a href=&quot;http://download.jboss.org/capedwarf/CapeDwarf_WildFly_2.0.0.CR4.zip&quot;&gt;http://download.jboss.org/capedwarf/CapeDwarf_WildFly_2.0.0.CR4.zip&lt;/a&gt;&lt;/p&gt;
+      &lt;/li&gt;
+      &lt;/ul&gt;
+      &lt;/div&gt;
+      &lt;div class=&quot;paragraph&quot;&gt;
+      &lt;p&gt;The release notes:&lt;/p&gt;
+      &lt;/div&gt;
+      &lt;div class=&quot;ulist&quot;&gt;
+      &lt;ul&gt;
+      &lt;li&gt;
+      &lt;p&gt;&lt;a href=&quot;https://issues.jboss.org/secure/ReleaseNote.jspa?projectId=12311321&amp;amp;version=12324925&quot;&gt;https://issues.jboss.org/secure/ReleaseNote.jspa?projectId=12311321&amp;amp;version=12324925&lt;/a&gt;&lt;/p&gt;
+      &lt;/li&gt;
+      &lt;/ul&gt;
+      &lt;/div&gt;
+      &lt;div class=&quot;paragraph&quot;&gt;
+      &lt;p&gt;And the mentioned GAE TCK concurrent transactions tests:&lt;/p&gt;
+      &lt;/div&gt;
+      &lt;div class=&quot;ulist&quot;&gt;
+      &lt;ul&gt;
+      &lt;li&gt;
+      &lt;p&gt;&lt;a href=&quot;https://github.com/GoogleCloudPlatform/appengine-tck/tree/master/core/byteman/src/test/java/com/google/appengine/tck/byteman&quot;&gt;https://github.com/GoogleCloudPlatform/appengine-tck/tree/master/core/byteman/src/test/java/com/google/appengine/tck/byteman&lt;/a&gt;&lt;/p&gt;
+      &lt;/li&gt;
+      &lt;/ul&gt;
+      &lt;/div&gt;
+      &lt;div class=&quot;paragraph&quot;&gt;
+      &lt;p&gt;Feedback welcome as always!&lt;/p&gt;
+      &lt;/div&gt;
+      &lt;/div&gt;
+      &lt;/div&gt;
+    </content>
+  </entry>
+  <entry>
+    <id>http://capedwarf.org/news/2014/08/05/NewCapeDwarf200CR3Release/</id>
+    <title>New CapeDwarf 2.0.0.CR3, with few small tweaks</title>
+    <updated>2015-07-27T13:31:16+00:00</updated>
+    <published>2014-08-05T12:04:00+01:00</published>
+    <link href="http://capedwarf.org/news/2014/08/05/NewCapeDwarf200CR3Release/" rel="alternate" type="text/html" />
+    <author>
+      <name>Ales Justin</name>
+    </author>
+    <category term="announcement"></category>
+    <category term="release"></category>
+    <summary>
+      
+      
+      
+      With World Cup and summer vacation finally behind us, it’s time to do a new CapeDwarf release.
+      This time it only includes a few minor fixes, and of course a GAE version update.
+      
+      
+      Download is here:
+      
+      
+      
+      
+      http://download.jboss.org/capedwarf/CapeDwarf_WildFly_2.0.0.CR3.zip
+      
+      
+      
+      
+      And the few release notes:
+      
+      
+      
+      
+      https://issues.jboss.org/secure/ReleaseNote.jspa?projectId=12311321&amp;version=12325061
+      
+      
+      
+      
+      Give it a spin, and feedback welcome as always!
+      
+      
+      ...
+    </summary>
+    <content type="html">
+      &lt;div id=&quot;preamble&quot;&gt;
+      &lt;div class=&quot;sectionbody&quot;&gt;
+      &lt;div class=&quot;paragraph&quot;&gt;
+      &lt;p&gt;With World Cup and summer vacation finally behind us, it’s time to do a new CapeDwarf release.
+      This time it only includes a few minor fixes, and of course a GAE version update.&lt;/p&gt;
+      &lt;/div&gt;
+      &lt;div class=&quot;paragraph&quot;&gt;
+      &lt;p&gt;Download is here:&lt;/p&gt;
+      &lt;/div&gt;
+      &lt;div class=&quot;ulist&quot;&gt;
+      &lt;ul&gt;
+      &lt;li&gt;
+      &lt;p&gt;&lt;a href=&quot;http://download.jboss.org/capedwarf/CapeDwarf_WildFly_2.0.0.CR3.zip&quot;&gt;http://download.jboss.org/capedwarf/CapeDwarf_WildFly_2.0.0.CR3.zip&lt;/a&gt;&lt;/p&gt;
+      &lt;/li&gt;
+      &lt;/ul&gt;
+      &lt;/div&gt;
+      &lt;div class=&quot;paragraph&quot;&gt;
+      &lt;p&gt;And the few release notes:&lt;/p&gt;
+      &lt;/div&gt;
+      &lt;div class=&quot;ulist&quot;&gt;
+      &lt;ul&gt;
+      &lt;li&gt;
+      &lt;p&gt;&lt;a href=&quot;https://issues.jboss.org/secure/ReleaseNote.jspa?projectId=12311321&amp;amp;version=12325061&quot;&gt;https://issues.jboss.org/secure/ReleaseNote.jspa?projectId=12311321&amp;amp;version=12325061&lt;/a&gt;&lt;/p&gt;
+      &lt;/li&gt;
+      &lt;/ul&gt;
+      &lt;/div&gt;
+      &lt;div class=&quot;paragraph&quot;&gt;
+      &lt;p&gt;Give it a spin, and feedback welcome as always!&lt;/p&gt;
+      &lt;/div&gt;
+      &lt;/div&gt;
+      &lt;/div&gt;
+    </content>
+  </entry>
+  <entry>
+    <id>http://capedwarf.org/news/2014/05/26/CapeDwarfGetsCronSupport/</id>
+    <title>CapeDwarf (finally) gets cron support!</title>
+    <updated>2015-07-27T13:31:16+00:00</updated>
+    <published>2014-05-26T13:04:00+01:00</published>
+    <link href="http://capedwarf.org/news/2014/05/26/CapeDwarfGetsCronSupport/" rel="alternate" type="text/html" />
+    <author>
+      <name>Ales Justin</name>
+    </author>
+    <category term="announcement"></category>
+    <category term="release"></category>
+    <summary>
+      
+      
+      
+      I’m actually surprised on how I was able to miss the cron support for so long, or how come none of the users complained. :-)
+      
+      
+      It finally caught my attention when I needed it in one of my sandbox apps, that I realised that we have completely forgotten about it&#8201;&#8212;&#8201;though it’s been around forever.
+      
+      
+      When implementing something like cron support in Java, it’s probably the only logical choice to use Quartz. And that’s what we’ve done.
+      Of course there are some tricks to consider, specially around clustering support and GAE cron’s natural way of describing trigger times. But that’s where JGroups and existing...
+    </summary>
+    <content type="html">
+      &lt;div id=&quot;preamble&quot;&gt;
+      &lt;div class=&quot;sectionbody&quot;&gt;
+      &lt;div class=&quot;paragraph&quot;&gt;
+      &lt;p&gt;I’m actually surprised on how I was able to miss the cron support for so long, or how come none of the users complained. :-)&lt;/p&gt;
+      &lt;/div&gt;
+      &lt;div class=&quot;paragraph&quot;&gt;
+      &lt;p&gt;It finally caught my attention when I needed it in one of my sandbox apps, that I realised that we have completely forgotten about it — though it’s been around forever.&lt;/p&gt;
+      &lt;/div&gt;
+      &lt;div class=&quot;paragraph&quot;&gt;
+      &lt;p&gt;When implementing something like cron support in Java, it’s probably the only logical choice to use Quartz. And that’s what we’ve done.
+      Of course there are some tricks to consider, specially around clustering support and GAE cron’s natural way of describing trigger times. But that’s where JGroups and existing GAE Tools come in handy.&lt;/p&gt;
+      &lt;/div&gt;
+      &lt;div class=&quot;paragraph&quot;&gt;
+      &lt;p&gt;So, here is the latest CapeDwarf 2.0.0.CR2 distribution:&lt;/p&gt;
+      &lt;/div&gt;
+      &lt;div class=&quot;ulist&quot;&gt;
+      &lt;ul&gt;
+      &lt;li&gt;
+      &lt;p&gt;&lt;a href=&quot;http://download.jboss.org/capedwarf/CapeDwarf_WildFly_2.0.0.CR2.zip&quot;&gt;CapeDwarf_WildFly_2.0.0.CR2.zip&lt;/a&gt;&lt;/p&gt;
+      &lt;/li&gt;
+      &lt;/ul&gt;
+      &lt;/div&gt;
+      &lt;div class=&quot;paragraph&quot;&gt;
+      &lt;p&gt;And the usual issues report:&lt;/p&gt;
+      &lt;/div&gt;
+      &lt;div class=&quot;ulist&quot;&gt;
+      &lt;ul&gt;
+      &lt;li&gt;
+      &lt;p&gt;&lt;a href=&quot;https://issues.jboss.org/secure/ReleaseNote.jspa?projectId=12311321&amp;amp;version=12324465&quot;&gt;2.0.0.CR2 release notes&lt;/a&gt;&lt;/p&gt;
+      &lt;/li&gt;
+      &lt;/ul&gt;
+      &lt;/div&gt;
+      &lt;div class=&quot;paragraph&quot;&gt;
+      &lt;p&gt;Give it a spin and any feedback welcome as always!&lt;/p&gt;
+      &lt;/div&gt;
+      &lt;/div&gt;
+      &lt;/div&gt;
+    </content>
+  </entry>
+  <entry>
+    <id>http://capedwarf.org/news/2014/03/26/YouveGotMailAndANewSite/</id>
+    <title>You’ve got mail and a new site!</title>
+    <updated>2015-07-27T13:31:16+00:00</updated>
+    <published>2014-03-26T13:04:00+01:00</published>
+    <link href="http://capedwarf.org/news/2014/03/26/YouveGotMailAndANewSite/" rel="alternate" type="text/html" />
+    <author>
+      <name>Ales Justin</name>
+    </author>
+    <category term="announcement"></category>
+    <category term="release"></category>
+    <summary>
+      
+      
+      
+      As the title - taken from a cheesy romantic movie :-) - says, we now finally have proper mail API support on CapeDwarf.
+      
+      
+      We also moved our capedwarf.org site to Awestruct and Asciidoctor, plus adding a bunch of content to it&#8201;&#8212;&#8201;faq, docs, blogs, …
+      
+      
+      CapeDwarf now uses WildFly 8.0.0.Final underneath, which fixed some of the deployment’ concurrency handling issues.
+      
+      
+      The full release notes can be found here:
+      
+      
+      
+      
+      2.0.0.CR1 release notes
+      
+      
+      
+      
+      Download the full .zip distribution:
+      
+      
+      
+      
+      CapeDwarf_WildFly_2.0.0.CR1.zip
+      
+      
+      
+      
+      Feedback welcome!
+      
+      
+      ...
+    </summary>
+    <content type="html">
+      &lt;div id=&quot;preamble&quot;&gt;
+      &lt;div class=&quot;sectionbody&quot;&gt;
+      &lt;div class=&quot;paragraph&quot;&gt;
+      &lt;p&gt;As the title - taken from a cheesy romantic movie :-) - says, we now finally have proper mail API support on CapeDwarf.&lt;/p&gt;
+      &lt;/div&gt;
+      &lt;div class=&quot;paragraph&quot;&gt;
+      &lt;p&gt;We also moved our &lt;a href=&quot;http://www.capedwarf.org&quot;&gt;capedwarf.org&lt;/a&gt; site to Awestruct and Asciidoctor, plus adding a bunch of content to it — faq, docs, blogs, …&lt;/p&gt;
+      &lt;/div&gt;
+      &lt;div class=&quot;paragraph&quot;&gt;
+      &lt;p&gt;CapeDwarf now uses WildFly 8.0.0.Final underneath, which fixed some of the deployment’ concurrency handling issues.&lt;/p&gt;
+      &lt;/div&gt;
+      &lt;div class=&quot;paragraph&quot;&gt;
+      &lt;p&gt;The full release notes can be found here:&lt;/p&gt;
+      &lt;/div&gt;
+      &lt;div class=&quot;ulist&quot;&gt;
+      &lt;ul&gt;
+      &lt;li&gt;
+      &lt;p&gt;&lt;a href=&quot;https://issues.jboss.org/secure/ReleaseNote.jspa?projectId=12311321&amp;amp;version=12318737&quot;&gt;2.0.0.CR1 release notes&lt;/a&gt;&lt;/p&gt;
+      &lt;/li&gt;
+      &lt;/ul&gt;
+      &lt;/div&gt;
+      &lt;div class=&quot;paragraph&quot;&gt;
+      &lt;p&gt;Download the full .zip distribution:&lt;/p&gt;
+      &lt;/div&gt;
+      &lt;div class=&quot;ulist&quot;&gt;
+      &lt;ul&gt;
+      &lt;li&gt;
+      &lt;p&gt;&lt;a href=&quot;http://downloads.jboss.org/capedwarf/CapeDwarf_WildFly_2.0.0.CR1.zip&quot;&gt;CapeDwarf_WildFly_2.0.0.CR1.zip&lt;/a&gt;&lt;/p&gt;
+      &lt;/li&gt;
+      &lt;/ul&gt;
+      &lt;/div&gt;
+      &lt;div class=&quot;paragraph&quot;&gt;
+      &lt;p&gt;Feedback welcome!&lt;/p&gt;
+      &lt;/div&gt;
+      &lt;/div&gt;
+      &lt;/div&gt;
+    </content>
+  </entry>
+  <entry>
+    <id>http://capedwarf.org/news/2013/12/27/FinallyNewCapeDwarfReleaseThisTimeOnWildFly/</id>
+    <title>Finally new CapeDwarf release, this time on WildFly!</title>
+    <updated>2015-07-27T13:31:16+00:00</updated>
+    <published>2013-12-27T13:04:00+01:00</published>
+    <link href="http://capedwarf.org/news/2013/12/27/FinallyNewCapeDwarfReleaseThisTimeOnWildFly/" rel="alternate" type="text/html" />
+    <author>
+      <name>Ales Justin</name>
+    </author>
+    <category term="announcement"></category>
+    <category term="release"></category>
+    <summary>
+      
+      
+      
+      Yes, we finally moved the CapeDwarf runtime over to new WildFly codebase! It took time to get all the components aligned, all our provided patches merged and all issues resolved. But it was worth it!
+      
+      
+      Apart from new runtime with WildFly, we also switched to new Infinispan version 6.x and new UnderTow web server. With new Infinispan version 6.x you get much faster file store impl, while the move to UnderTow allowed us to implement Channel API on top of WebSockets.
+      
+      
+      The full release notes can be found here:
+      
+      
+      
+      
+      2.0.0.Beta1 release notes
+      
+      
+      
+      
+      Download the full .zip distribution:
+      
+      
+      
+      
+      CapeDwarf_WildFly_2.0.0.Beta1.zip
+      
+      
+      
+      
+      To name a few new features or resolved...
+    </summary>
+    <content type="html">
+      &lt;div id=&quot;preamble&quot;&gt;
+      &lt;div class=&quot;sectionbody&quot;&gt;
+      &lt;div class=&quot;paragraph&quot;&gt;
+      &lt;p&gt;Yes, we finally moved the CapeDwarf runtime over to new WildFly codebase! It took time to get all the components aligned, all our provided patches merged and all issues resolved. But it was worth it!&lt;/p&gt;
+      &lt;/div&gt;
+      &lt;div class=&quot;paragraph&quot;&gt;
+      &lt;p&gt;Apart from new runtime with WildFly, we also switched to new Infinispan version 6.x and new UnderTow web server. With new Infinispan version 6.x you get much faster file store impl, while the move to UnderTow allowed us to implement Channel API on top of WebSockets.&lt;/p&gt;
+      &lt;/div&gt;
+      &lt;div class=&quot;paragraph&quot;&gt;
+      &lt;p&gt;The full release notes can be found here:&lt;/p&gt;
+      &lt;/div&gt;
+      &lt;div class=&quot;ulist&quot;&gt;
+      &lt;ul&gt;
+      &lt;li&gt;
+      &lt;p&gt;&lt;a href=&quot;https://issues.jboss.org/secure/ReleaseNote.jspa?projectId=12311321&amp;amp;version=12322159&quot;&gt;2.0.0.Beta1 release notes&lt;/a&gt;&lt;/p&gt;
+      &lt;/li&gt;
+      &lt;/ul&gt;
+      &lt;/div&gt;
+      &lt;div class=&quot;paragraph&quot;&gt;
+      &lt;p&gt;Download the full .zip distribution:&lt;/p&gt;
+      &lt;/div&gt;
+      &lt;div class=&quot;ulist&quot;&gt;
+      &lt;ul&gt;
+      &lt;li&gt;
+      &lt;p&gt;&lt;a href=&quot;http://downloads.jboss.org/capedwarf/CapeDwarf_WildFly_2.0.0.Beta1.zip&quot;&gt;CapeDwarf_WildFly_2.0.0.Beta1.zip&lt;/a&gt;&lt;/p&gt;
+      &lt;/li&gt;
+      &lt;/ul&gt;
+      &lt;/div&gt;
+      &lt;div class=&quot;paragraph&quot;&gt;
+      &lt;p&gt;To name a few new features or resolved issues - we finally have initial OAuth impl, we’re now using original Endpoints resources from GAE for our Endpoints support, &lt;a href=&quot;https://github.com/luksa&quot;&gt;Marko&lt;/a&gt; found and fixed a nasty namespace bug in our Datastore, and we fixed a bunch of small issues exposed by the &lt;a href=&quot;https://github.com/GoogleCloudPlatform/appengine-tck&quot;&gt;GAE TCK&lt;/a&gt;.&lt;/p&gt;
+      &lt;/div&gt;
+      &lt;div class=&quot;paragraph&quot;&gt;
+      &lt;p&gt;The old codebase based on JBossAS7 can be found under 1.0 branch in our GitHub repos.&lt;/p&gt;
+      &lt;/div&gt;
+      &lt;div class=&quot;paragraph&quot;&gt;
+      &lt;p&gt;Give this new release a spin. Feedback is welcome as always!&lt;/p&gt;
+      &lt;/div&gt;
+      &lt;div class=&quot;paragraph&quot;&gt;
+      &lt;p&gt;Happy holidays!&lt;/p&gt;
+      &lt;/div&gt;
+      &lt;/div&gt;
+      &lt;/div&gt;
+    </content>
+  </entry>
+  <entry>
+    <id>http://capedwarf.org/news/2013/09/11/ModulesEndpointsSQLGCSNewChannelImplAkaNewCapeDwarf100Beta6/</id>
+    <title>Modules, Endpoints, SQL, GCS, new Channel impl, … aka new CapeDwarf 1.0.0.Beta6</title>
+    <updated>2015-07-27T13:31:16+00:00</updated>
+    <published>2013-09-11T15:44:00+01:00</published>
+    <link href="http://capedwarf.org/news/2013/09/11/ModulesEndpointsSQLGCSNewChannelImplAkaNewCapeDwarf100Beta6/" rel="alternate" type="text/html" />
+    <author>
+      <name>Ales Justin</name>
+    </author>
+    <category term="announcement"></category>
+    <category term="release"></category>
+    <summary>
+      
+      
+      
+      As you can see from the title, and from a bit late release, we’ve again been very busy.
+      
+      
+      
+      
+      CapeDwarf 1.0.0.Beta6
+      
+      
+      Release Notes
+      
+      
+      
+      
+      Let’s just go over all new features.
+      
+      
+      
+      
+      Modules
+      
+      
+      
+      
+      Modules spec
+      
+      
+      
+      
+      There is a bit of limitation on our end here, as there is no (easy / nice) dynamic way (to my knowledge) to scale up / down virtual servers (at runtime during deployment phase) in JBossWeb that comes with JBossAS7 (which is what we use). In order to use Modules with CapeDwarf, you must use “standalone-capedwarf-modules.xml” configuration when you startup CapeDwarf AS instance.
+      
+      
+      You must also configure the number of virtual servers to match your...
+    </summary>
+    <content type="html">
+      &lt;div id=&quot;preamble&quot;&gt;
+      &lt;div class=&quot;sectionbody&quot;&gt;
+      &lt;div class=&quot;paragraph&quot;&gt;
+      &lt;p&gt;As you can see from the title, and from a bit late release, we’ve again been very busy.&lt;/p&gt;
+      &lt;/div&gt;
+      &lt;div class=&quot;ulist&quot;&gt;
+      &lt;ul&gt;
+      &lt;li&gt;
+      &lt;p&gt;&lt;a href=&quot;http://downloads.jboss.org/capedwarf/CapeDwarf_AS7_1.0.0.Beta6.zip&quot;&gt;CapeDwarf 1.0.0.Beta6&lt;/a&gt;&lt;/p&gt;
+      &lt;/li&gt;
+      &lt;li&gt;
+      &lt;p&gt;&lt;a href=&quot;https://issues.jboss.org/secure/ReleaseNote.jspa?projectId=12311321&amp;amp;version=12318736&quot;&gt;Release Notes&lt;/a&gt;&lt;/p&gt;
+      &lt;/li&gt;
+      &lt;/ul&gt;
+      &lt;/div&gt;
+      &lt;div class=&quot;paragraph&quot;&gt;
+      &lt;p&gt;Let’s just go over all new features.&lt;/p&gt;
+      &lt;/div&gt;
+      &lt;/div&gt;
+      &lt;/div&gt;
+      &lt;div class=&quot;sect1&quot;&gt;
+      &lt;h2 id=&quot;modules&quot;&gt;
+      &lt;a class=&quot;anchor&quot; href=&quot;#modules&quot;&gt;&lt;/a&gt;Modules&lt;/h2&gt;
+      &lt;div class=&quot;sectionbody&quot;&gt;
+      &lt;div class=&quot;ulist&quot;&gt;
+      &lt;ul&gt;
+      &lt;li&gt;
+      &lt;p&gt;&lt;a href=&quot;https://developers.google.com/appengine/docs/java/modules/&quot;&gt;Modules spec&lt;/a&gt;&lt;/p&gt;
+      &lt;/li&gt;
+      &lt;/ul&gt;
+      &lt;/div&gt;
+      &lt;div class=&quot;paragraph&quot;&gt;
+      &lt;p&gt;There is a bit of limitation on our end here, as there is no (easy / nice) dynamic way (to my knowledge) to scale up / down virtual servers (at runtime during deployment phase) in JBossWeb that comes with JBossAS7 (which is what we use). In order to use Modules with CapeDwarf, you must use “standalone-capedwarf-modules.xml” configuration when you startup CapeDwarf AS instance.&lt;/p&gt;
+      &lt;/div&gt;
+      &lt;div class=&quot;paragraph&quot;&gt;
+      &lt;p&gt;You must also configure the number of virtual servers to match your application’s modularization. See web subsystem configuration in “standalone-capedwarf-modules.xml” for more details.&lt;/p&gt;
+      &lt;/div&gt;
+      &lt;div class=&quot;paragraph&quot;&gt;
+      &lt;p&gt;(or simply ping me for any Modules questions - via forums, email, Twitter or Freenode IRC #capedwarf)&lt;/p&gt;
+      &lt;/div&gt;
+      &lt;div class=&quot;ulist&quot;&gt;
+      &lt;ul&gt;
+      &lt;li&gt;
+      &lt;p&gt;&lt;a href=&quot;https://github.com/GoogleCloudPlatform/appengine-tck/tree/master/core/modules&quot;&gt;Modules TCK tests&lt;/a&gt;&lt;/p&gt;
+      &lt;/li&gt;
+      &lt;/ul&gt;
+      &lt;/div&gt;
+      &lt;/div&gt;
+      &lt;/div&gt;
+      &lt;div class=&quot;sect1&quot;&gt;
+      &lt;h2 id=&quot;endpoints&quot;&gt;
+      &lt;a class=&quot;anchor&quot; href=&quot;#endpoints&quot;&gt;&lt;/a&gt;Endpoints&lt;/h2&gt;
+      &lt;div class=&quot;sectionbody&quot;&gt;
+      &lt;div class=&quot;ulist&quot;&gt;
+      &lt;ul&gt;
+      &lt;li&gt;
+      &lt;p&gt;&lt;a href=&quot;https://developers.google.com/appengine/docs/java/endpoints/&quot;&gt;Endpoints spec&lt;/a&gt;&lt;/p&gt;
+      &lt;/li&gt;
+      &lt;/ul&gt;
+      &lt;/div&gt;
+      &lt;div class=&quot;paragraph&quot;&gt;
+      &lt;p&gt;We’ve managed to map GAE’s Endpoints annotations to JAXRS/RestEasy annotations, and
+      we also support custom serialization.&lt;/p&gt;
+      &lt;/div&gt;
+      &lt;div class=&quot;paragraph&quot;&gt;
+      &lt;p&gt;In our case / implementation we only need .api files as markers, and not to read any information from it — you can have a single .api dummy file if you like.&lt;/p&gt;
+      &lt;/div&gt;
+      &lt;div class=&quot;ulist&quot;&gt;
+      &lt;ul&gt;
+      &lt;li&gt;
+      &lt;p&gt;&lt;a href=&quot;https://github.com/GoogleCloudPlatform/appengine-tck/tree/master/core/endpoints&quot;&gt;Endpoints TCK tests&lt;/a&gt;&lt;/p&gt;
+      &lt;/li&gt;
+      &lt;/ul&gt;
+      &lt;/div&gt;
+      &lt;/div&gt;
+      &lt;/div&gt;
+      &lt;div class=&quot;sect1&quot;&gt;
+      &lt;h2 id=&quot;sql&quot;&gt;
+      &lt;a class=&quot;anchor&quot; href=&quot;#sql&quot;&gt;&lt;/a&gt;SQL&lt;/h2&gt;
+      &lt;div class=&quot;sectionbody&quot;&gt;
+      &lt;div class=&quot;paragraph&quot;&gt;
+      &lt;p&gt;SQL was of course supported out-of-the-box for us.
+      We we just had to hack GAE’s Driver class to connect against selected DataSource:&lt;/p&gt;
+      &lt;/div&gt;
+      &lt;div class=&quot;ulist&quot;&gt;
+      &lt;ul&gt;
+      &lt;li&gt;
+      &lt;p&gt;&lt;a href=&quot;https://github.com/capedwarf/capedwarf-blue/blob/master/sql/src/main/java/org/jboss/capedwarf/sql/JndiDataSource.java&quot;&gt;DataSource lookup&lt;/a&gt;&lt;/p&gt;
+      &lt;/li&gt;
+      &lt;li&gt;
+      &lt;p&gt;&lt;a href=&quot;https://github.com/GoogleCloudPlatform/appengine-tck/tree/master/core/sql&quot;&gt;SQL TCK tests&lt;/a&gt;&lt;/p&gt;
+      &lt;/li&gt;
+      &lt;/ul&gt;
+      &lt;/div&gt;
+      &lt;/div&gt;
+      &lt;/div&gt;
+      &lt;div class=&quot;sect1&quot;&gt;
+      &lt;h2 id=&quot;gcs&quot;&gt;
+      &lt;a class=&quot;anchor&quot; href=&quot;#gcs&quot;&gt;&lt;/a&gt;GCS&lt;/h2&gt;
+      &lt;div class=&quot;sectionbody&quot;&gt;
+      &lt;div class=&quot;paragraph&quot;&gt;
+      &lt;p&gt;FileService is being deprecated in favor of Google Cloud Storage (GCS) API. At the moment dev / local implementation of the GCS client library still goes against FileService implementation, so supporting this was easy, as we already fully implemented FileService API.&lt;/p&gt;
+      &lt;/div&gt;
+      &lt;div class=&quot;ulist&quot;&gt;
+      &lt;ul&gt;
+      &lt;li&gt;
+      &lt;p&gt;&lt;a href=&quot;https://github.com/GoogleCloudPlatform/appengine-tck/tree/master/ext/gcs-client&quot;&gt;GCS TCK tests&lt;/a&gt;&lt;/p&gt;
+      &lt;/li&gt;
+      &lt;/ul&gt;
+      &lt;/div&gt;
+      &lt;/div&gt;
+      &lt;/div&gt;
+      &lt;div class=&quot;sect1&quot;&gt;
+      &lt;h2 id=&quot;channel&quot;&gt;
+      &lt;a class=&quot;anchor&quot; href=&quot;#channel&quot;&gt;&lt;/a&gt;Channel&lt;/h2&gt;
+      &lt;div class=&quot;sectionbody&quot;&gt;
+      &lt;div class=&quot;paragraph&quot;&gt;
+      &lt;p&gt;We re-implemented Channel API.&lt;/p&gt;
+      &lt;/div&gt;
+      &lt;div class=&quot;paragraph&quot;&gt;
+      &lt;p&gt;Big thanks to &lt;a href=&quot;https://github.com/chrisritter&quot;&gt;@chrisritter&lt;/a&gt; for kicking our butt to do this, and contributing a simple but cool chat app for testing purposes: &lt;a href=&quot;https://github.com/chrisritter/simplechat&quot;&gt;SimpleChat&lt;/a&gt;.&lt;/p&gt;
+      &lt;/div&gt;
+      &lt;div class=&quot;paragraph&quot;&gt;
+      &lt;p&gt;Also thanks to &lt;a href=&quot;https://github.com/kpiwko&quot;&gt;Karel&lt;/a&gt; for stepping up and fixing Arquillian Drone so we can finally automagically test this.&lt;/p&gt;
+      &lt;/div&gt;
+      &lt;div class=&quot;ulist&quot;&gt;
+      &lt;ul&gt;
+      &lt;li&gt;
+      &lt;p&gt;&lt;a href=&quot;https://github.com/GoogleCloudPlatform/appengine-tck/tree/master/tests/appengine-tck-channel&quot;&gt;Channel TCK tests&lt;/a&gt;&lt;/p&gt;
+      &lt;/li&gt;
+      &lt;/ul&gt;
+      &lt;/div&gt;
+      &lt;/div&gt;
+      &lt;/div&gt;
+      &lt;div class=&quot;sect1&quot;&gt;
+      &lt;h2 id=&quot;javaone-2013&quot;&gt;
+      &lt;a class=&quot;anchor&quot; href=&quot;#javaone-2013&quot;&gt;&lt;/a&gt;JavaOne 2013&lt;/h2&gt;
+      &lt;div class=&quot;sectionbody&quot;&gt;
+      &lt;div class=&quot;paragraph&quot;&gt;
+      &lt;p&gt;Don’t miss my presentation at JavaOne — Tuesday 24th September at 11:30am, Parc55.&lt;/p&gt;
+      &lt;/div&gt;
+      &lt;div class=&quot;ulist&quot;&gt;
+      &lt;ul&gt;
+      &lt;li&gt;
+      &lt;p&gt;&lt;a href=&quot;https://oracleus.activeevents.com/2013/connect/sessionDetail.ww?SESSION_ID=2117&quot;&gt;Implementing Your Own Google App Engine&lt;/a&gt;&lt;/p&gt;
+      &lt;/li&gt;
+      &lt;/ul&gt;
+      &lt;/div&gt;
+      &lt;div class=&quot;paragraph&quot;&gt;
+      &lt;p&gt;Or my previously mentioned DC JBUG talk: &lt;a href=&quot;http://www.meetup.com/DC-JBug/events/128068042/&quot;&gt;http://www.meetup.com/DC-JBug/events/128068042/&lt;/a&gt;&lt;/p&gt;
+      &lt;/div&gt;
+      &lt;/div&gt;
+      &lt;/div&gt;
+      &lt;div class=&quot;sect1&quot;&gt;
+      &lt;h2 id=&quot;blogs&quot;&gt;
+      &lt;a class=&quot;anchor&quot; href=&quot;#blogs&quot;&gt;&lt;/a&gt;Blogs&lt;/h2&gt;
+      &lt;div class=&quot;sectionbody&quot;&gt;
+      &lt;div class=&quot;paragraph&quot;&gt;
+      &lt;p&gt;&lt;a href=&quot;https://twitter.com/myfear&quot;&gt;Markus Eisele&lt;/a&gt; posted a nice overview of CapeDwarf:&lt;/p&gt;
+      &lt;/div&gt;
+      &lt;div class=&quot;ulist&quot;&gt;
+      &lt;ul&gt;
+      &lt;li&gt;
+      &lt;p&gt;&lt;a href=&quot;http://blog.eisele.net/2013/09/capedwarf-google-app-engine-on-java-ee.html&quot;&gt;CapeDwarf - Google App Engine on Java EE&lt;/a&gt;&lt;/p&gt;
+      &lt;/li&gt;
+      &lt;/ul&gt;
+      &lt;/div&gt;
+      &lt;div class=&quot;paragraph&quot;&gt;
+      &lt;p&gt;Anyway, enjoy the new release! Feedback welcome as always.&lt;/p&gt;
+      &lt;/div&gt;
+      &lt;/div&gt;
+      &lt;/div&gt;
+    </content>
+  </entry>
+  <entry>
+    <id>http://capedwarf.org/news/2013/07/10/CapeDwarfIsBackFromVacationAndConferencesNew100Beta5/</id>
+    <title>CapeDwarf is back from vacation and conferences&#8201;&#8212;&#8201;new 1.0.0.Beta5!</title>
+    <updated>2015-07-27T13:31:16+00:00</updated>
+    <published>2013-07-10T16:33:00+01:00</published>
+    <link href="http://capedwarf.org/news/2013/07/10/CapeDwarfIsBackFromVacationAndConferencesNew100Beta5/" rel="alternate" type="text/html" />
+    <author>
+      <name>Ales Justin</name>
+    </author>
+    <category term="announcement"></category>
+    <category term="release"></category>
+    <summary>
+      
+      
+      
+      After successful Google I/O and Red Hat Summit presentations, and some vacation, it&#8217;s finally time to do a new release.
+      
+      
+      
+      
+      CapeDwarf 1.0.0.Beta5
+      
+      
+      
+      
+      Regarding the release issues, they&#8217;ve been mostly driven by TCK failures,
+      hence I&#8217;ll let the release notes speak for themselves.
+      
+      
+      
+      
+      Release notes
+      
+      
+      
+      
+      Note: for the Windows users, an issue I just discovered after releasing the .zip, and it&#8217;s unfortunately not as trivial as it looks like, hence I didn&#8217;t want to stale the release even more.
+      So the fix for this is coming in the next release.
+      
+      
+      
+      
+      capedwarf-bytecode.bat is broken
+      
+      
+      
+      
+      The simple workaround is to run the full AS start command: "standalone.bat -c standalone-capedwarf.xml".
+      (and a bit...
+    </summary>
+    <content type="html">
+      &lt;div id=&quot;preamble&quot;&gt;
+      &lt;div class=&quot;sectionbody&quot;&gt;
+      &lt;div class=&quot;paragraph&quot;&gt;
+      &lt;p&gt;After successful Google I/O and Red Hat Summit presentations, and some vacation, it&amp;#8217;s finally time to do a new release.&lt;/p&gt;
+      &lt;/div&gt;
+      &lt;div class=&quot;ulist&quot;&gt;
+      &lt;ul&gt;
+      &lt;li&gt;
+      &lt;p&gt;&lt;a href=&quot;http://downloads.jboss.org/capedwarf/CapeDwarf_AS7_1.0.0.Beta5.zip&quot;&gt;CapeDwarf 1.0.0.Beta5&lt;/a&gt;&lt;/p&gt;
+      &lt;/li&gt;
+      &lt;/ul&gt;
+      &lt;/div&gt;
+      &lt;div class=&quot;paragraph&quot;&gt;
+      &lt;p&gt;Regarding the release issues, they&amp;#8217;ve been mostly driven by TCK failures,
+      hence I&amp;#8217;ll let the release notes speak for themselves.&lt;/p&gt;
+      &lt;/div&gt;
+      &lt;div class=&quot;ulist&quot;&gt;
+      &lt;ul&gt;
+      &lt;li&gt;
+      &lt;p&gt;&lt;a href=&quot;https://issues.jboss.org/secure/ReleaseNote.jspa?projectId=12311321&amp;amp;version=12321677&quot;&gt;Release notes&lt;/a&gt;&lt;/p&gt;
+      &lt;/li&gt;
+      &lt;/ul&gt;
+      &lt;/div&gt;
+      &lt;div class=&quot;paragraph&quot;&gt;
+      &lt;p&gt;Note: for the Windows users, an issue I just discovered after releasing the .zip, and it&amp;#8217;s unfortunately not as trivial as it looks like, hence I didn&amp;#8217;t want to stale the release even more.
+      So the fix for this is coming in the next release.&lt;/p&gt;
+      &lt;/div&gt;
+      &lt;div class=&quot;ulist&quot;&gt;
+      &lt;ul&gt;
+      &lt;li&gt;
+      &lt;p&gt;&lt;a href=&quot;https://issues.jboss.org/browse/CAPEDWARF-186&quot;&gt;capedwarf-bytecode.bat is broken&lt;/a&gt;&lt;/p&gt;
+      &lt;/li&gt;
+      &lt;/ul&gt;
+      &lt;/div&gt;
+      &lt;div class=&quot;paragraph&quot;&gt;
+      &lt;p&gt;The simple workaround is to run the full AS start command: &quot;standalone.bat -c standalone-capedwarf.xml&quot;.
+      (and a bit more work if you wanna use GAE API jar as a module)&lt;/p&gt;
+      &lt;/div&gt;
+      &lt;/div&gt;
+      &lt;/div&gt;
+      &lt;div class=&quot;sect1&quot;&gt;
+      &lt;h2 id=&quot;news-n-stuff&quot;&gt;
+      &lt;a class=&quot;anchor&quot; href=&quot;#news-n-stuff&quot;&gt;&lt;/a&gt;News&amp;#8217;n'stuff&lt;/h2&gt;
+      &lt;div class=&quot;sectionbody&quot;&gt;
+      &lt;div class=&quot;paragraph&quot;&gt;
+      &lt;p&gt;Apart from classic coding, it&amp;#8217;s been busy three months with a lot of news and new things around CapeDwarf project.&lt;/p&gt;
+      &lt;/div&gt;
+      &lt;/div&gt;
+      &lt;/div&gt;
+      &lt;div class=&quot;sect1&quot;&gt;
+      &lt;h2 id=&quot;gae-tck&quot;&gt;
+      &lt;a class=&quot;anchor&quot; href=&quot;#gae-tck&quot;&gt;&lt;/a&gt;GAE TCK&lt;/h2&gt;
+      &lt;div class=&quot;sectionbody&quot;&gt;
+      &lt;div class=&quot;paragraph&quot;&gt;
+      &lt;p&gt;For those who missed my tweets about GAE TCK, here is the link again&lt;/p&gt;
+      &lt;/div&gt;
+      &lt;div class=&quot;ulist&quot;&gt;
+      &lt;ul&gt;
+      &lt;li&gt;
+      &lt;p&gt;&lt;a href=&quot;https://github.com/GoogleCloudPlatform/appengine-tck&quot;&gt;GAE TCK&lt;/a&gt;&lt;/p&gt;
+      &lt;/li&gt;
+      &lt;/ul&gt;
+      &lt;/div&gt;
+      &lt;/div&gt;
+      &lt;/div&gt;
+      &lt;div class=&quot;sect1&quot;&gt;
+      &lt;h2 id=&quot;blogs-articles&quot;&gt;
+      &lt;a class=&quot;anchor&quot; href=&quot;#blogs-articles&quot;&gt;&lt;/a&gt;Blogs, articles&lt;/h2&gt;
+      &lt;div class=&quot;sectionbody&quot;&gt;
+      &lt;div class=&quot;paragraph&quot;&gt;
+      &lt;p&gt;It looks like we&amp;#8217;re getting more and more traction on the blog / article scene&lt;/p&gt;
+      &lt;/div&gt;
+      &lt;div class=&quot;ulist&quot;&gt;
+      &lt;ul&gt;
+      &lt;li&gt;
+      &lt;p&gt;&lt;a href=&quot;http://googlecloudplatform.blogspot.com/2013/06/google-app-engine-running-in-private-cloud-with-capedrawf.html&quot;&gt;Ludo&amp;#8217;s blog, Google Cloud Platform&lt;/a&gt;&lt;/p&gt;
+      &lt;/li&gt;
+      &lt;li&gt;
+      &lt;p&gt;&lt;a href=&quot;http://www.h-online.com/open/news/item/Google-and-Red-Hat-bring-App-Engine-to-JBoss-1894797.html&quot;&gt;The H Open&lt;/a&gt;&lt;/p&gt;
+      &lt;/li&gt;
+      &lt;li&gt;
+      &lt;p&gt;&lt;a href=&quot;http://www.informationweek.com/cloud-computing/platform/google-enhances-cloud-platform-to-ease-l/240157220&quot;&gt;InformationWeek&lt;/a&gt;&lt;/p&gt;
+      &lt;/li&gt;
+      &lt;li&gt;
+      &lt;p&gt;&lt;a href=&quot;http://blogs.gartner.com/yefim_natis/2013/07/05/google-and-red-hat-an-intriguing-partnership/&quot;&gt;Yefim Natis, Gartner&lt;/a&gt;&lt;/p&gt;
+      &lt;/li&gt;
+      &lt;li&gt;
+      &lt;p&gt;&lt;a href=&quot;https://plus.google.com/110401818717224273095/posts/Uoj3pmhbCkH&quot;&gt;Peter Magnusson, Google&lt;/a&gt;&lt;/p&gt;
+      &lt;/li&gt;
+      &lt;li&gt;
+      &lt;p&gt;&lt;a href=&quot;http://adtmag.com/articles/2013/07/09/capedwarf-partnership.aspx?m=2&quot;&gt;ADT&lt;/a&gt;&lt;/p&gt;
+      &lt;/li&gt;
+      &lt;/ul&gt;
+      &lt;/div&gt;
+      &lt;/div&gt;
+      &lt;/div&gt;
+      &lt;div class=&quot;sect1&quot;&gt;
+      &lt;h2 id=&quot;conferences-talks&quot;&gt;
+      &lt;a class=&quot;anchor&quot; href=&quot;#conferences-talks&quot;&gt;&lt;/a&gt;Conferences, talks&lt;/h2&gt;
+      &lt;div class=&quot;sectionbody&quot;&gt;
+      &lt;div class=&quot;paragraph&quot;&gt;
+      &lt;p&gt;Since JavaOne notifications are out, I can happily say that my &lt;em&gt;Implementing your own Google App Engine&lt;/em&gt; talk got accepted.
+      And I&amp;#8217;ll prolong my US stay with &lt;a href=&quot;http://www.meetup.com/DC-JBug/events/128068042/&quot;&gt;my visit to DC JBUG&lt;/a&gt;. Welcome to drop by!&lt;/p&gt;
+      &lt;/div&gt;
+      &lt;/div&gt;
+      &lt;/div&gt;
+    </content>
+  </entry>
+  <entry>
+    <id>http://capedwarf.org/news/2013/04/22/CapeDwarf100Beta4IsOut/</id>
+    <title>CapeDwarf 1.0.0.Beta4 is out!</title>
+    <updated>2015-07-27T13:31:16+00:00</updated>
+    <published>2013-04-22T12:41:00+01:00</published>
+    <link href="http://capedwarf.org/news/2013/04/22/CapeDwarf100Beta4IsOut/" rel="alternate" type="text/html" />
+    <author>
+      <name>Ales Justin</name>
+    </author>
+    <category term="announcement"></category>
+    <category term="release"></category>
+    <summary>
+      
+      
+      
+      Continuing with our monthly releases, we’re happy to announce new 1.0.0.Beta4 release.
+      
+      
+      
+      
+      http://downloads.jboss.org/capedwarf/CapeDwarf_AS7_1.0.0.Beta4.zip
+      
+      
+      
+      
+      Quick rundown of release notes
+      
+      
+      
+      
+      all logging data was moved into separate cache,
+      
+      
+      enabled metadata handling,
+      
+      
+      default cache is now “SYNC” by default (which made MapReduce tests very happy :-)),
+      
+      
+      we put back legacy factory transformers - which means older GAE API versions now again work to some extent,
+      
+      
+      Velocity is jarjar-ed - so it doesn’t conflict with your version anymore,
+      
+      
+      we support static files handling - you don’t hit your filters and listeners anymore,
+      
+      
+      datastore queries now run sync as well, cluster wide - thanks Sanne, Dan and Infinispan co.,
+      
+      
+      and a bunch of other small...
+    </summary>
+    <content type="html">
+      &lt;div id=&quot;preamble&quot;&gt;
+      &lt;div class=&quot;sectionbody&quot;&gt;
+      &lt;div class=&quot;paragraph&quot;&gt;
+      &lt;p&gt;Continuing with our monthly releases, we’re happy to announce new 1.0.0.Beta4 release.&lt;/p&gt;
+      &lt;/div&gt;
+      &lt;div class=&quot;ulist&quot;&gt;
+      &lt;ul&gt;
+      &lt;li&gt;
+      &lt;p&gt;&lt;a href=&quot;http://downloads.jboss.org/capedwarf/CapeDwarf_AS7_1.0.0.Beta4.zip&quot;&gt;http://downloads.jboss.org/capedwarf/CapeDwarf_AS7_1.0.0.Beta4.zip&lt;/a&gt;&lt;/p&gt;
+      &lt;/li&gt;
+      &lt;/ul&gt;
+      &lt;/div&gt;
+      &lt;div class=&quot;paragraph&quot;&gt;
+      &lt;p&gt;&lt;a href=&quot;https://issues.jboss.org/secure/ReleaseNote.jspa?projectId=12311321&amp;amp;version=12321455&quot;&gt;Quick rundown of release notes&lt;/a&gt;&lt;/p&gt;
+      &lt;/div&gt;
+      &lt;div class=&quot;ulist&quot;&gt;
+      &lt;ul&gt;
+      &lt;li&gt;
+      &lt;p&gt;all logging data was moved into separate cache,&lt;/p&gt;
+      &lt;/li&gt;
+      &lt;li&gt;
+      &lt;p&gt;enabled metadata handling,&lt;/p&gt;
+      &lt;/li&gt;
+      &lt;li&gt;
+      &lt;p&gt;default cache is now “SYNC” by default (which made &lt;a href=&quot;https://code.google.com/p/appengine-mapreduce/&quot;&gt;MapReduce&lt;/a&gt; tests very happy :-)),&lt;/p&gt;
+      &lt;/li&gt;
+      &lt;li&gt;
+      &lt;p&gt;we put back legacy factory transformers - which means older GAE API versions now again work to some extent,&lt;/p&gt;
+      &lt;/li&gt;
+      &lt;li&gt;
+      &lt;p&gt;Velocity is jarjar-ed - so it doesn’t conflict with your version anymore,&lt;/p&gt;
+      &lt;/li&gt;
+      &lt;li&gt;
+      &lt;p&gt;we support static files handling - you don’t hit your filters and listeners anymore,&lt;/p&gt;
+      &lt;/li&gt;
+      &lt;li&gt;
+      &lt;p&gt;datastore queries now run sync as well, cluster wide - thanks &lt;a href=&quot;https://github.com/Sanne&quot;&gt;Sanne&lt;/a&gt;, &lt;a href=&quot;https://github.com/danberindei&quot;&gt;Dan&lt;/a&gt; and &lt;a href=&quot;http://infinispan.org&quot;&gt;Infinispan co.&lt;/a&gt;,&lt;/p&gt;
+      &lt;/li&gt;
+      &lt;li&gt;
+      &lt;p&gt;and a bunch of other small tweaks.&lt;/p&gt;
+      &lt;/li&gt;
+      &lt;/ul&gt;
+      &lt;/div&gt;
+      &lt;div class=&quot;paragraph&quot;&gt;
+      &lt;p&gt;&lt;a href=&quot;https://developers.google.com/events/io/&quot;&gt;Google I/O 2013&lt;/a&gt;&lt;/p&gt;
+      &lt;/div&gt;
+      &lt;div class=&quot;paragraph&quot;&gt;
+      &lt;p&gt;CapeDwarf team will be at this year’s Google I/O’ Sandbox!
+      Make sure you drop by for a chat, demo and a nice T-shirt.&lt;/p&gt;
+      &lt;/div&gt;
+      &lt;div class=&quot;paragraph&quot;&gt;
+      &lt;p&gt;Also be careful you don’t miss the exciting surprise announcement!&lt;/p&gt;
+      &lt;/div&gt;
+      &lt;/div&gt;
+      &lt;/div&gt;
+    </content>
+  </entry>
+  <entry>
+    <id>http://capedwarf.org/news/2013/03/12/BusyBusyBusyNew100Beta3CapeDwarfReleaseFinallyOut/</id>
+    <title>Busy busy busy - new 1.0.0.Beta3 CapeDwarf release finally out!</title>
+    <updated>2015-07-27T13:31:16+00:00</updated>
+    <published>2013-03-12T16:23:00+01:00</published>
+    <link href="http://capedwarf.org/news/2013/03/12/BusyBusyBusyNew100Beta3CapeDwarfReleaseFinallyOut/" rel="alternate" type="text/html" />
+    <author>
+      <name>Ales Justin</name>
+    </author>
+    <category term="announcement"></category>
+    <category term="release"></category>
+    <summary>
+      
+      
+      
+      Download it here:
+      
+      
+      
+      
+      http://downloads.jboss.org/capedwarf/CapeDwarf_AS7_1.0.0.Beta3.zip
+      
+      
+      
+      
+      As you can see from the JIRA release notes, it’s been super busy 2 months.
+      
+      
+      
+      
+      https://issues.jboss.org/secure/ReleaseNote.jspa?projectId=12311321&amp;version=12320952
+      
+      
+      
+      
+      Another new sub-project: CapeDwarf Shared.
+      
+      
+      
+      
+      https://github.com/capedwarf/capedwarf-shared
+      
+      
+      
+      
+      It’s where we keep the shared code between our GAE API implementation (Blue) and JBossAS integration.
+      
+      
+      There has been a lot of detail polishing on Blobstore, Logging and TaskQueue.
+      And we also added BlackList / WhiteList support, getting even closer to GAE behavior this way.
+      
+      
+      Also big thanks to Bart and Wouter for the patches and feedback.
+      
+      
+      And yes, we finally simplified how you start the whole thing - thanks Lazo.
+      
+      
+      
+      
+      ./capedwarf.sh or capedwarf.bat (in JBOSS\_HOME/bin/) will do
+      
+      
+      
+      
+      As always, feedback welcome!
+      
+      
+      ...
+    </summary>
+    <content type="html">
+      &lt;div id=&quot;preamble&quot;&gt;
+      &lt;div class=&quot;sectionbody&quot;&gt;
+      &lt;div class=&quot;paragraph&quot;&gt;
+      &lt;p&gt;Download it here:&lt;/p&gt;
+      &lt;/div&gt;
+      &lt;div class=&quot;ulist&quot;&gt;
+      &lt;ul&gt;
+      &lt;li&gt;
+      &lt;p&gt;&lt;a href=&quot;http://downloads.jboss.org/capedwarf/CapeDwarf_AS7_1.0.0.Beta3.zip&quot;&gt;http://downloads.jboss.org/capedwarf/CapeDwarf_AS7_1.0.0.Beta3.zip&lt;/a&gt;&lt;/p&gt;
+      &lt;/li&gt;
+      &lt;/ul&gt;
+      &lt;/div&gt;
+      &lt;div class=&quot;paragraph&quot;&gt;
+      &lt;p&gt;As you can see from the JIRA release notes, it’s been super busy 2 months.&lt;/p&gt;
+      &lt;/div&gt;
+      &lt;div class=&quot;ulist&quot;&gt;
+      &lt;ul&gt;
+      &lt;li&gt;
+      &lt;p&gt;&lt;a href=&quot;https://issues.jboss.org/secure/ReleaseNote.jspa?projectId=12311321&amp;amp;version=12320952&quot;&gt;https://issues.jboss.org/secure/ReleaseNote.jspa?projectId=12311321&amp;amp;version=12320952&lt;/a&gt;&lt;/p&gt;
+      &lt;/li&gt;
+      &lt;/ul&gt;
+      &lt;/div&gt;
+      &lt;div class=&quot;paragraph&quot;&gt;
+      &lt;p&gt;Another new sub-project: CapeDwarf Shared.&lt;/p&gt;
+      &lt;/div&gt;
+      &lt;div class=&quot;ulist&quot;&gt;
+      &lt;ul&gt;
+      &lt;li&gt;
+      &lt;p&gt;&lt;a href=&quot;https://github.com/capedwarf/capedwarf-shared&quot;&gt;https://github.com/capedwarf/capedwarf-shared&lt;/a&gt;&lt;/p&gt;
+      &lt;/li&gt;
+      &lt;/ul&gt;
+      &lt;/div&gt;
+      &lt;div class=&quot;paragraph&quot;&gt;
+      &lt;p&gt;It’s where we keep the shared code between our GAE API implementation (Blue) and JBossAS integration.&lt;/p&gt;
+      &lt;/div&gt;
+      &lt;div class=&quot;paragraph&quot;&gt;
+      &lt;p&gt;There has been a lot of detail polishing on Blobstore, Logging and TaskQueue.
+      And we also added BlackList / WhiteList support, getting even closer to GAE behavior this way.&lt;/p&gt;
+      &lt;/div&gt;
+      &lt;div class=&quot;paragraph&quot;&gt;
+      &lt;p&gt;Also big thanks to &lt;a href=&quot;https://github.com/bartv&quot;&gt;Bart&lt;/a&gt; and &lt;a href=&quot;http://distrinet.cs.kuleuven.be/people/showMember.do?memberID=u0059687&quot;&gt;Wouter&lt;/a&gt; for the patches and feedback.&lt;/p&gt;
+      &lt;/div&gt;
+      &lt;div class=&quot;paragraph&quot;&gt;
+      &lt;p&gt;And yes, we finally simplified how you start the whole thing - thanks &lt;a href=&quot;https://github.com/matejonnet&quot;&gt;Lazo&lt;/a&gt;.&lt;/p&gt;
+      &lt;/div&gt;
+      &lt;div class=&quot;ulist&quot;&gt;
+      &lt;ul&gt;
+      &lt;li&gt;
+      &lt;p&gt;./capedwarf.sh or capedwarf.bat (in JBOSS\_HOME/bin/) will do&lt;/p&gt;
+      &lt;/li&gt;
+      &lt;/ul&gt;
+      &lt;/div&gt;
+      &lt;div class=&quot;paragraph&quot;&gt;
+      &lt;p&gt;As always, feedback welcome!&lt;/p&gt;
+      &lt;/div&gt;
+      &lt;/div&gt;
+      &lt;/div&gt;
+    </content>
+  </entry>
+  <entry>
+    <id>http://capedwarf.org/news/2013/01/14/CapeDwarfOptimizationsAndBugFixesAka100Beta2/</id>
+    <title>CapeDwarf optimizations and bug fixes aka 1.0.0.Beta2</title>
+    <updated>2015-07-27T13:31:16+00:00</updated>
+    <published>2013-01-14T12:04:00+01:00</published>
+    <link href="http://capedwarf.org/news/2013/01/14/CapeDwarfOptimizationsAndBugFixesAka100Beta2/" rel="alternate" type="text/html" />
+    <author>
+      <name>Ales Justin</name>
+    </author>
+    <category term="announcement"></category>
+    <category term="release"></category>
+    <summary>
+      
+      
+      
+      With first CapeDwarf release out of the way, it’s now time to address initial user issues. Since setting up CapeDwarf environment has become so simple&#8201;&#8212;&#8201;just unzip the distribution, and CapeDwarf already running on OpenShift, we got a few useful feedbacks; keep ‘em coming!
+      
+      
+      Quick look at profiling showed we’re too eager on our logging. GAE has a LogService, hence we need to tap into JBoss Application Server logging in order to properly catch all application’ logs. But if you do this too eagerly, you might end-up catching all logs&#8201;&#8212;&#8201;which is exactly what happened here. Well, this is now all fixed, resulting...
+    </summary>
+    <content type="html">
+      &lt;div id=&quot;preamble&quot;&gt;
+      &lt;div class=&quot;sectionbody&quot;&gt;
+      &lt;div class=&quot;paragraph&quot;&gt;
+      &lt;p&gt;With &lt;a href=&quot;http://in.relation.to/Bloggers/FirstCapeDwarfRelease&quot;&gt;first CapeDwarf release out of the way&lt;/a&gt;, it’s now time to address initial user issues. Since setting up CapeDwarf environment has become so simple — just unzip the distribution, and CapeDwarf already running on &lt;a href=&quot;https://openshift.redhat.com/community/blogs/google-app-engine-on-your-own-paas&quot;&gt;OpenShift&lt;/a&gt;, we got a few useful feedbacks; keep ‘em coming!&lt;/p&gt;
+      &lt;/div&gt;
+      &lt;div class=&quot;paragraph&quot;&gt;
+      &lt;p&gt;Quick look at profiling showed we’re too eager on our logging. GAE has a LogService, hence we need to tap into JBoss Application Server logging in order to properly catch all application’ logs. But if you do this too eagerly, you might end-up catching all logs — which is exactly what happened here. Well, this is now all fixed, resulting in huge performance boost on GAE logging now.&lt;/p&gt;
+      &lt;/div&gt;
+      &lt;div class=&quot;paragraph&quot;&gt;
+      &lt;p&gt;As expected, another very useful source of information are actual user applications. Either users themselves tried to deploy the app and failed or we actually got our hands on their .war binaries. This helped flush out some OAuth, JDO, threading, backends and web components initialization bugs.&lt;/p&gt;
+      &lt;/div&gt;
+      &lt;/div&gt;
+      &lt;/div&gt;
+      &lt;div class=&quot;sect1&quot;&gt;
+      &lt;h2 id=&quot;api-versioning&quot;&gt;
+      &lt;a class=&quot;anchor&quot; href=&quot;#api-versioning&quot;&gt;&lt;/a&gt;API Versioning&lt;/h2&gt;
+      &lt;div class=&quot;sectionbody&quot;&gt;
+      &lt;div class=&quot;paragraph&quot;&gt;
+      &lt;p&gt;Something I forgot to mention in previous CapeDwarf blog, and it’s quite important, is that at the moment, we only support latest version of GAE API (and/or any that is 100% compatible with it; at the time of writing this blog, this is GAE 1.7.4).&lt;/p&gt;
+      &lt;/div&gt;
+      &lt;div class=&quot;paragraph&quot;&gt;
+      &lt;p&gt;So, if you haven’t yet updated to the latest GAE API version, you might run into some issues. In order to flush them out easily, I created a new CapeDwarf sub-project over the holidays.&lt;/p&gt;
+      &lt;/div&gt;
+      &lt;div class=&quot;ulist&quot;&gt;
+      &lt;ul&gt;
+      &lt;li&gt;
+      &lt;p&gt;&lt;a href=&quot;https://github.com/capedwarf/capedwarf-versions&quot;&gt;CapeDwarf Versions&lt;/a&gt;&lt;/p&gt;
+      &lt;/li&gt;
+      &lt;/ul&gt;
+      &lt;/div&gt;
+      &lt;div class=&quot;paragraph&quot;&gt;
+      &lt;p&gt;As you can see, this allows for Blue tests to run against selected GAE API version.&lt;/p&gt;
+      &lt;/div&gt;
+      &lt;div class=&quot;paragraph&quot;&gt;
+      &lt;p&gt;I also added initial support for API versioning to CapeDwarf AS integration, &lt;em&gt;but&lt;/em&gt; the actual support is not there (yet) — due to how we intend to support this. Each non-latest GAE API version requires a new CapeDwarf Blue branch, from which you get the compatible binaries to distribute them with CapeDwarf distribution. Then you simply place these compatible binaries into JBoss Application Server’ modules/ dir - under org/jboss/capedwarf/\&amp;lt;version\&amp;gt; directory. But this is more of a task for contributors, as we encourage people to update their GAE API jars.&lt;/p&gt;
+      &lt;/div&gt;
+      &lt;div class=&quot;paragraph&quot;&gt;
+      &lt;p&gt;Also a slight update on MapReduce tests in cluster. They work, but you have to make CapeDwarf’ default cache execute operations SYNC, instead of ASYNC. We have a workaround for this in place now.&lt;/p&gt;
+      &lt;/div&gt;
+      &lt;div class=&quot;paragraph&quot;&gt;
+      &lt;p&gt;To cut the long story short, here is the new 1.0.0.Beta2 release:&lt;/p&gt;
+      &lt;/div&gt;
+      &lt;div class=&quot;ulist&quot;&gt;
+      &lt;ul&gt;
+      &lt;li&gt;
+      &lt;p&gt;&lt;a href=&quot;http://downloads.jboss.org/capedwarf/CapeDwarf_AS7_1.0.0.Beta2.zip&quot;&gt;CapeDwarf 1.0.0.Beta2&lt;/a&gt;&lt;/p&gt;
+      &lt;/li&gt;
+      &lt;li&gt;
+      &lt;p&gt;&lt;a href=&quot;https://issues.jboss.org/secure/ReleaseNote.jspa?projectId=12311321&amp;amp;version=12318738&quot;&gt;JIRA release ref&lt;/a&gt;&lt;/p&gt;
+      &lt;/li&gt;
+      &lt;/ul&gt;
+      &lt;/div&gt;
+      &lt;div class=&quot;paragraph&quot;&gt;
+      &lt;p&gt;Feedback welcome as always!!&lt;/p&gt;
+      &lt;/div&gt;
+      &lt;/div&gt;
+      &lt;/div&gt;
+    </content>
+  </entry>
+  <entry>
+    <id>http://capedwarf.org/news/2012/12/04/FirstCapeDwarfRelease/</id>
+    <title>First CapeDwarf Release!</title>
+    <updated>2015-07-27T13:31:16+00:00</updated>
+    <published>2012-12-04T15:20:00+01:00</published>
+    <link href="http://capedwarf.org/news/2012/12/04/FirstCapeDwarfRelease/" rel="alternate" type="text/html" />
+    <author>
+      <name>Ales Justin</name>
+    </author>
+    <category term="announcement"></category>
+    <category term="release"></category>
+    <summary>
+      
+      
+      
+      After a year in the making, I’m finally able to announce first CapeDwarf release!
+      
+      
+      
+      
+      http://downloads.jboss.org/capedwarf/CapeDwarf_AS7_1.0.0.Beta1.zip
+      
+      
+      JIRA release ref
+      
+      
+      
+      
+      
+      
+      But first, what exactly is CapeDwarf?
+      
+      
+      As our jboss.org page says, it’s a Google App Engine (GAE) API implemented with JBoss and other open source libraries. Making it possible to run unmodified GAE applications directly in JBoss application server.
+      
+      
+      The project is split into few sub-projects:
+      
+      
+      
+      
+      CapeDwarf Blue - heart of the project aka actual GAE API implementation (https://github.com/capedwarf/capedwarf-blue)
+      
+      
+      CapeDwarf JBoss-AS - JBossAS7 extension / subsystem (https://github.com/capedwarf/capedwarf-jboss-as)
+      
+      
+      CapeDwarf Testsuite - testing environment (https://github.com/capedwarf/capedwarf-testsuite)
+      
+      
+      
+      
+      All of the sub-projects are “Mavenized”, and at the moment you also need latest JBossAS upstream binaries in...
+    </summary>
+    <content type="html">
+      &lt;div id=&quot;preamble&quot;&gt;
+      &lt;div class=&quot;sectionbody&quot;&gt;
+      &lt;div class=&quot;paragraph&quot;&gt;
+      &lt;p&gt;After a year in the making, I’m finally able to announce first CapeDwarf release!&lt;/p&gt;
+      &lt;/div&gt;
+      &lt;div class=&quot;ulist&quot;&gt;
+      &lt;ul&gt;
+      &lt;li&gt;
+      &lt;p&gt;&lt;a href=&quot;http://downloads.jboss.org/capedwarf/CapeDwarf_AS7_1.0.0.Beta1.zip&quot;&gt;http://downloads.jboss.org/capedwarf/CapeDwarf_AS7_1.0.0.Beta1.zip&lt;/a&gt;&lt;/p&gt;
+      &lt;/li&gt;
+      &lt;li&gt;
+      &lt;p&gt;&lt;a href=&quot;https://issues.jboss.org/secure/ReleaseNote.jspa?projectId=12311321&amp;amp;version=12318735&quot;&gt;JIRA release ref&lt;/a&gt;&lt;/p&gt;
+      &lt;/li&gt;
+      &lt;/ul&gt;
+      &lt;/div&gt;
+      &lt;/div&gt;
+      &lt;/div&gt;
+      &lt;div class=&quot;sect1&quot;&gt;
+      &lt;h2 id=&quot;but-first-what-exactly-is-capedwarf&quot;&gt;
+      &lt;a class=&quot;anchor&quot; href=&quot;#but-first-what-exactly-is-capedwarf&quot;&gt;&lt;/a&gt;But first, what exactly is CapeDwarf?&lt;/h2&gt;
+      &lt;div class=&quot;sectionbody&quot;&gt;
+      &lt;div class=&quot;paragraph&quot;&gt;
+      &lt;p&gt;As &lt;a href=&quot;http://www.jboss.org/capedwarf&quot;&gt;our jboss.org page&lt;/a&gt; says, it’s a Google App Engine (GAE) API implemented with JBoss and other open source libraries. Making it possible to run &lt;em&gt;unmodified&lt;/em&gt; GAE applications directly in JBoss application server.&lt;/p&gt;
+      &lt;/div&gt;
+      &lt;div class=&quot;paragraph&quot;&gt;
+      &lt;p&gt;The project is split into few sub-projects:&lt;/p&gt;
+      &lt;/div&gt;
+      &lt;div class=&quot;ulist&quot;&gt;
+      &lt;ul&gt;
+      &lt;li&gt;
+      &lt;p&gt;CapeDwarf Blue - heart of the project aka actual GAE API implementation (&lt;a href=&quot;https://github.com/capedwarf/capedwarf-blue&quot;&gt;https://github.com/capedwarf/capedwarf-blue&lt;/a&gt;)&lt;/p&gt;
+      &lt;/li&gt;
+      &lt;li&gt;
+      &lt;p&gt;CapeDwarf JBoss-AS - JBossAS7 extension / subsystem (&lt;a href=&quot;https://github.com/capedwarf/capedwarf-jboss-as&quot;&gt;https://github.com/capedwarf/capedwarf-jboss-as&lt;/a&gt;)&lt;/p&gt;
+      &lt;/li&gt;
+      &lt;li&gt;
+      &lt;p&gt;CapeDwarf Testsuite - testing environment (&lt;a href=&quot;https://github.com/capedwarf/capedwarf-testsuite&quot;&gt;https://github.com/capedwarf/capedwarf-testsuite&lt;/a&gt;)&lt;/p&gt;
+      &lt;/li&gt;
+      &lt;/ul&gt;
+      &lt;/div&gt;
+      &lt;div class=&quot;paragraph&quot;&gt;
+      &lt;p&gt;All of the sub-projects are “Mavenized”, and at the moment you also need latest JBossAS upstream binaries in your local Maven repository.&lt;/p&gt;
+      &lt;/div&gt;
+      &lt;div class=&quot;ulist&quot;&gt;
+      &lt;ul&gt;
+      &lt;li&gt;
+      &lt;p&gt;JBossAS - &lt;a href=&quot;https://github.com/jbossas/jboss-as/&quot;&gt;https://github.com/jbossas/jboss-as/&lt;/a&gt;&lt;/p&gt;
+      &lt;/li&gt;
+      &lt;/ul&gt;
+      &lt;/div&gt;
+      &lt;/div&gt;
+      &lt;/div&gt;
+      &lt;div class=&quot;sect1&quot;&gt;
+      &lt;h2 id=&quot;how-exactly-do-i-try-this&quot;&gt;
+      &lt;a class=&quot;anchor&quot; href=&quot;#how-exactly-do-i-try-this&quot;&gt;&lt;/a&gt;How exactly do I try this?&lt;/h2&gt;
+      &lt;div class=&quot;sectionbody&quot;&gt;
+      &lt;div class=&quot;paragraph&quot;&gt;
+      &lt;p&gt;Download &lt;a href=&quot;http://www.jboss.org/capedwarf/downloads&quot;&gt;CapeDwarf zip distribution&lt;/a&gt; and unpack it to your prefered location - JBOSS\_HOME. It contains current JBossAS7 upstream master snapshot binaries, plus CapeDwarf JBossAS7 subsystem and a few extra modules (aka libs or jars).&lt;/p&gt;
+      &lt;/div&gt;
+      &lt;div class=&quot;paragraph&quot;&gt;
+      &lt;p&gt;Now simply go to JBOSS\_HOME/bin/ directory and run the whole thing.&lt;/p&gt;
+      &lt;/div&gt;
+      &lt;div class=&quot;ulist&quot;&gt;
+      &lt;ul&gt;
+      &lt;li&gt;
+      &lt;p&gt;on OSX ./standalone.sh -c standalone-capedwarf.xml -b your\_ip&lt;/p&gt;
+      &lt;/li&gt;
+      &lt;li&gt;
+      &lt;p&gt;on Linux ./standalone.sh -c standalone-capedwarf.xml&lt;/p&gt;
+      &lt;/li&gt;
+      &lt;li&gt;
+      &lt;p&gt;on Windows standalone.bat -c standalone-capedwarf.xml&lt;/p&gt;
+      &lt;/li&gt;
+      &lt;/ul&gt;
+      &lt;/div&gt;
+      &lt;div class=&quot;paragraph&quot;&gt;
+      &lt;p&gt;Now just drop the app to JBOSS\_HOME/standalone/deployment/ dir and you should already see the app being deployed.
+      Or you could use new JBossAS7 Admin Console or CLI to deploy the app - see JBossAS7 docs on how to do this.&lt;/p&gt;
+      &lt;/div&gt;
+      &lt;div class=&quot;listingblock&quot;&gt;
+      &lt;div class=&quot;content&quot;&gt;
+      &lt;pre class=&quot;CodeRay&quot;&gt;&lt;code&gt;12:49:21,651 INFO  [org.jboss.as.capedwarf.deployment.CapedwarfInitializationProcessor] (MSC service thread 1-12) Found GAE / CapeDwarf deployment: deployment &quot;capedwarf-tests.war”&lt;/code&gt;&lt;/pre&gt;
+      &lt;/div&gt;
+      &lt;/div&gt;
+      &lt;/div&gt;
+      &lt;/div&gt;
+      &lt;div class=&quot;sect1&quot;&gt;
+      &lt;h2 id=&quot;in-what-flavors-does-it-come&quot;&gt;
+      &lt;a class=&quot;anchor&quot; href=&quot;#in-what-flavors-does-it-come&quot;&gt;&lt;/a&gt;In what “flavors” does it come?&lt;/h2&gt;
+      &lt;div class=&quot;sectionbody&quot;&gt;
+      &lt;div class=&quot;paragraph&quot;&gt;
+      &lt;p&gt;As being modular is the way to go these days, we also provide a way to run GAE apps in fully modular fashion. What does this mean? It means that instead of packing all required GAE jars / libs, you can simply not include them in your app - making the app distribution smaller this way. It is CapeDwarf that will recognize the app being a GAE app - via appengine-web.xml descriptor file, and add appropriate modules / jars to you app’ classpath. But this comes with a small gotcha.&lt;/p&gt;
+      &lt;/div&gt;
+      &lt;div class=&quot;paragraph&quot;&gt;
+      &lt;p&gt;As we need to do some bytecode enhancement to GAE API jar in order to override some services instantiation behavior, while on the other hand you’re not allowed to ship with modified binaries as per license, you will need to run a script to do this bytecode enhancement before running the application server for the first time. The script is located in usual JBossAS bin/, capedwarf-bytecode.sh or capedwarf-bytecode.bin.&lt;/p&gt;
+      &lt;/div&gt;
+      &lt;div class=&quot;paragraph&quot;&gt;
+      &lt;p&gt;Apps that bundle all GAE libs - which is the usual GAE way, do not need to run this script, as the bytecode enhancement will take place during runtime.&lt;/p&gt;
+      &lt;/div&gt;
+      &lt;/div&gt;
+      &lt;/div&gt;
+      &lt;div class=&quot;sect1&quot;&gt;
+      &lt;h2 id=&quot;how-exactly-does-capedwarf-work&quot;&gt;
+      &lt;a class=&quot;anchor&quot; href=&quot;#how-exactly-does-capedwarf-work&quot;&gt;&lt;/a&gt;How exactly does CapeDwarf work?&lt;/h2&gt;
+      &lt;div class=&quot;sectionbody&quot;&gt;
+      &lt;div class=&quot;paragraph&quot;&gt;
+      &lt;p&gt;Without going too much into details, let me just mention few main components and how they are roughly implemented.&lt;/p&gt;
+      &lt;/div&gt;
+      &lt;div class=&quot;paragraph&quot;&gt;
+      &lt;p&gt;For most of the stuff, we take JBoss’ &lt;a href=&quot;http://www.jboss.org/infinispan&quot;&gt;Infinispan&lt;/a&gt; and &lt;a href=&quot;http://www.hibernate.org&quot;&gt;Hibernate Search&lt;/a&gt; projects to their limits. We use them for datastore, memcache, search, prospective search, filestore and blobstore. JMS with &lt;a href=&quot;http://www.jboss.org/hornetq&quot;&gt;HornetQ&lt;/a&gt; is used to implement taskqueue.&lt;/p&gt;
+      &lt;/div&gt;
+      &lt;div class=&quot;paragraph&quot;&gt;
+      &lt;p&gt;Where Infinispan is not just plain cache implementation, but a whole data grid with good distributed task framework. Combine that with Hibernate Search and its nice Lucene extensions, you get a powerful clusterable environment to tackle complex problems that GAE API tries to hide from the user, but of course solve it underneath.&lt;/p&gt;
+      &lt;/div&gt;
+      &lt;/div&gt;
+      &lt;/div&gt;
+      &lt;div class=&quot;sect1&quot;&gt;
+      &lt;h2 id=&quot;what-about-admin-console&quot;&gt;
+      &lt;a class=&quot;anchor&quot; href=&quot;#what-about-admin-console&quot;&gt;&lt;/a&gt;What about admin console?&lt;/h2&gt;
+      &lt;div class=&quot;sectionbody&quot;&gt;
+      &lt;div class=&quot;paragraph&quot;&gt;
+      &lt;p&gt;Yes, we also support admin console for each app.
+      While we do lack features, we did try to add some useful functionality to this initial version.&lt;/p&gt;
+      &lt;/div&gt;
+      &lt;/div&gt;
+      &lt;/div&gt;
+      &lt;div class=&quot;sect1&quot;&gt;
+      &lt;h2 id=&quot;do-you-support-jpa-jdo&quot;&gt;
+      &lt;a class=&quot;anchor&quot; href=&quot;#do-you-support-jpa-jdo&quot;&gt;&lt;/a&gt;Do you support JPA / JDO?&lt;/h2&gt;
+      &lt;div class=&quot;sectionbody&quot;&gt;
+      &lt;div class=&quot;paragraph&quot;&gt;
+      &lt;p&gt;JPA / JDO support is exactly the same as in any GAE app. We went an extra mile to support this, providing patches to &lt;a href=&quot;http://www.datanucleus.org&quot;&gt;DataNucleus&lt;/a&gt; project, and taking special care of JPA / JDO deployments in our JBossAS7 CapeDwarf subsystem.&lt;/p&gt;
+      &lt;/div&gt;
+      &lt;/div&gt;
+      &lt;/div&gt;
+      &lt;div class=&quot;sect1&quot;&gt;
+      &lt;h2 id=&quot;does-gae-mapreduce-lib-run-on-capedwarf&quot;&gt;
+      &lt;a class=&quot;anchor&quot; href=&quot;#does-gae-mapreduce-lib-run-on-capedwarf&quot;&gt;&lt;/a&gt;Does GAE MapReduce lib run on CapeDwarf?&lt;/h2&gt;
+      &lt;div class=&quot;sectionbody&quot;&gt;
+      &lt;div class=&quot;paragraph&quot;&gt;
+      &lt;p&gt;At the moment we have a working test for standalone runtime, where we still have some issues in clustered environment. Hint: the test exists, but fails, and CapeDwarf is open source, wink.&lt;/p&gt;
+      &lt;/div&gt;
+      &lt;/div&gt;
+      &lt;/div&gt;
+      &lt;div class=&quot;sect1&quot;&gt;
+      &lt;h2 id=&quot;do-you-test-all-of-this-and-how&quot;&gt;
+      &lt;a class=&quot;anchor&quot; href=&quot;#do-you-test-all-of-this-and-how&quot;&gt;&lt;/a&gt;Do you test all of this? And how?&lt;/h2&gt;
+      &lt;div class=&quot;sectionbody&quot;&gt;
+      &lt;div class=&quot;paragraph&quot;&gt;
+      &lt;p&gt;We most certainly do.&lt;/p&gt;
+      &lt;/div&gt;
+      &lt;div class=&quot;paragraph&quot;&gt;
+      &lt;p&gt;We take great pride in trying to test this as much as possible.
+      And there is a bunch of interesting things we do to make this happen, trying to squeeze &lt;a href=&quot;http://www.arquillian.org&quot;&gt;Arquillian&lt;/a&gt; as much as possible.&lt;/p&gt;
+      &lt;/div&gt;
+      &lt;div class=&quot;paragraph&quot;&gt;
+      &lt;p&gt;You first need a custom JBossAS \+ CapeDwarf instance.
+      You can either enhance / modify an existing JBossAS instance with CapeDwarf-JBoss-AS sub-project or you can use the JBossAS instance from CapeDwarf-Testsuite sub-project.
+      Or of course use the custom distribution you just downloaded.&lt;/p&gt;
+      &lt;/div&gt;
+      &lt;div class=&quot;paragraph&quot;&gt;
+      &lt;p&gt;As expected, each sub-module (a sub-module per GAE API split) in CapeDwarf (Blue) has its own set of tests.&lt;/p&gt;
+      &lt;/div&gt;
+      &lt;div class=&quot;paragraph&quot;&gt;
+      &lt;p&gt;If you already have a running CapeDwarf-JBoss-AS instance, you can run these tests against it with “mvn clean install -Premote”. This uses JBossAS7 Arquillian Remote container to deploy the tests.&lt;/p&gt;
+      &lt;/div&gt;
+      &lt;div class=&quot;paragraph&quot;&gt;
+      &lt;p&gt;CapeDwarf-Testsuite sub-project builds its own JBossAS instance, and then uses JBossAS7 Managed Arquillian container to run the CapeDwarf Blue’ tests.&lt;/p&gt;
+      &lt;/div&gt;
+      &lt;div class=&quot;paragraph&quot;&gt;
+      &lt;p&gt;We have all of this setup as TeamCity builds (thanks JetBrains for the license!),
+      so drop me an email if you need to test some CapeDwarf pull-request you just hacked.&lt;/p&gt;
+      &lt;/div&gt;
+      &lt;/div&gt;
+      &lt;/div&gt;
+      &lt;div class=&quot;sect1&quot;&gt;
+      &lt;h2 id=&quot;scalable-or-running-testing-in-a-cluster&quot;&gt;
+      &lt;a class=&quot;anchor&quot; href=&quot;#scalable-or-running-testing-in-a-cluster&quot;&gt;&lt;/a&gt;Scalable or running / testing in a cluster?&lt;/h2&gt;
+      &lt;div class=&quot;sectionbody&quot;&gt;
+      &lt;div class=&quot;paragraph&quot;&gt;
+      &lt;p&gt;Whole CapeDwarf implementation tries to be scalable, as is of course GAE, avoiding a single point of contention. There are of course pieces of code where we know could use better approach. And this is definitely something we’ll do before Final release. Which is also where community help is highly appreciated; to either point out the issues or perhaps even contribute some better implementations to some bottleneck problems.&lt;/p&gt;
+      &lt;/div&gt;
+      &lt;div class=&quot;paragraph&quot;&gt;
+      &lt;p&gt;At the moment we have separate module in Blue which contains cluster tests. There is a README on how to exactly run those tests.&lt;/p&gt;
+      &lt;/div&gt;
+      &lt;div class=&quot;paragraph&quot;&gt;
+      &lt;p&gt;-Pcluster is the Maven profile to enable those tests.&lt;/p&gt;
+      &lt;/div&gt;
+      &lt;/div&gt;
+      &lt;/div&gt;
+      &lt;div class=&quot;sect1&quot;&gt;
+      &lt;h2 id=&quot;but-how-do-we-know-that-the-tests-itself-are-ok&quot;&gt;
+      &lt;a class=&quot;anchor&quot; href=&quot;#but-how-do-we-know-that-the-tests-itself-are-ok&quot;&gt;&lt;/a&gt;But how do we know that the tests itself are OK?&lt;/h2&gt;
+      &lt;div class=&quot;sectionbody&quot;&gt;
+      &lt;div class=&quot;paragraph&quot;&gt;
+      &lt;p&gt;Good question.&lt;/p&gt;
+      &lt;/div&gt;
+      &lt;div class=&quot;paragraph&quot;&gt;
+      &lt;p&gt;What we did here is develop an Arquillian container just for GAE.&lt;/p&gt;
+      &lt;/div&gt;
+      &lt;div class=&quot;ulist&quot;&gt;
+      &lt;ul&gt;
+      &lt;li&gt;
+      &lt;p&gt;&lt;a href=&quot;https://github.com/alesj/arquillian-container-gae&quot;&gt;https://github.com/alesj/arquillian-container-gae&lt;/a&gt;&lt;/p&gt;
+      &lt;/li&gt;
+      &lt;/ul&gt;
+      &lt;/div&gt;
+      &lt;div class=&quot;paragraph&quot;&gt;
+      &lt;p&gt;So what this means is that we can run the &lt;em&gt;same&lt;/em&gt; set of tests against real GAE,
+      and all of the (non-impl detailed) tests should pass.
+      btw: we only have a handful of impl details tests, all others are impl agnostic&lt;/p&gt;
+      &lt;/div&gt;
+      &lt;div class=&quot;paragraph&quot;&gt;
+      &lt;p&gt;So “mvn clean install -Dappengine.sdk.root\=Your GAE SKD location” runs Blue’ tests against your local GAE.&lt;/p&gt;
+      &lt;/div&gt;
+      &lt;div class=&quot;paragraph&quot;&gt;
+      &lt;p&gt;We also support embedded and remote GAE Arquillian container, but these are to be used with care.  Embedded - aka inJVM - is quite hacky, where remote deploys against AppSpot hence it’s a bit slow and less stable to use.&lt;/p&gt;
+      &lt;/div&gt;
+      &lt;/div&gt;
+      &lt;/div&gt;
+      &lt;div class=&quot;sect1&quot;&gt;
+      &lt;h2 id=&quot;what-about-some-existing-gae-tests&quot;&gt;
+      &lt;a class=&quot;anchor&quot; href=&quot;#what-about-some-existing-gae-tests&quot;&gt;&lt;/a&gt;What about some existing GAE tests?&lt;/h2&gt;
+      &lt;div class=&quot;sectionbody&quot;&gt;
+      &lt;div class=&quot;paragraph&quot;&gt;
+      &lt;p&gt;There aren’t many existing public GAE tests out there.
+      The only ones we could find are the ones in GAE DataNucleus (DN) plugin project.&lt;/p&gt;
+      &lt;/div&gt;
+      &lt;div class=&quot;ulist&quot;&gt;
+      &lt;ul&gt;
+      &lt;li&gt;
+      &lt;p&gt;&lt;a href=&quot;http://code.google.com/p/datanucleus-appengine/&quot;&gt;http://code.google.com/p/datanucleus-appengine/&lt;/a&gt;&lt;/p&gt;
+      &lt;/li&gt;
+      &lt;/ul&gt;
+      &lt;/div&gt;
+      &lt;div class=&quot;paragraph&quot;&gt;
+      &lt;p&gt;And there is a nice hack on how to make these tests run against CapeDwarf.&lt;/p&gt;
+      &lt;/div&gt;
+      &lt;div class=&quot;paragraph&quot;&gt;
+      &lt;p&gt;These GAE DN tests are pure Maven driven JUnit tests, where we need an Arquillian tests to run them against JBossAS instance. What to do? As we’re already bytecode hacking things, it’s obvious what can be done.&lt;/p&gt;
+      &lt;/div&gt;
+      &lt;div class=&quot;paragraph&quot;&gt;
+      &lt;p&gt;We add a custom Maven plugin which knows how to transform classes just after they are compiled:&lt;/p&gt;
+      &lt;/div&gt;
+      &lt;div class=&quot;ulist&quot;&gt;
+      &lt;ul&gt;
+      &lt;li&gt;
+      &lt;p&gt;&lt;a href=&quot;https://github.com/alesj/maven-transformer-plugin&quot;&gt;https://github.com/alesj/maven-transformer-plugin&lt;/a&gt;&lt;/p&gt;
+      &lt;/li&gt;
+      &lt;/ul&gt;
+      &lt;/div&gt;
+      &lt;div class=&quot;paragraph&quot;&gt;
+      &lt;p&gt;And it turns a plain JUnit test into an Arquillian GAE DN test:&lt;/p&gt;
+      &lt;/div&gt;
+      &lt;div class=&quot;ulist&quot;&gt;
+      &lt;ul&gt;
+      &lt;li&gt;
+      &lt;p&gt;&lt;a href=&quot;https://github.com/alesj/arquillian-transformer/blob/master/src/main/java/org/jboss/maven/arquillian/transformer/AppEngineDataNucleusTransformer.java&quot;&gt;https://github.com/alesj/arquillian-transformer/blob/master/src/main/java/org/jboss/maven/arquillian/transformer/AppEngineDataNucleusTransformer.java&lt;/a&gt;&lt;/p&gt;
+      &lt;/li&gt;
+      &lt;/ul&gt;
+      &lt;/div&gt;
+      &lt;div class=&quot;paragraph&quot;&gt;
+      &lt;p&gt;This now makes GAE DN tests run against CapeDwarf instead of default GAE API impl.&lt;/p&gt;
+      &lt;/div&gt;
+      &lt;div class=&quot;paragraph&quot;&gt;
+      &lt;p&gt;btw: we pass all of the non-impl detailed GAE DN tests&lt;/p&gt;
+      &lt;/div&gt;
+      &lt;/div&gt;
+      &lt;/div&gt;
+      &lt;div class=&quot;sect1&quot;&gt;
+      &lt;h2 id=&quot;openshift&quot;&gt;
+      &lt;a class=&quot;anchor&quot; href=&quot;#openshift&quot;&gt;&lt;/a&gt;OpenShift?&lt;/h2&gt;
+      &lt;div class=&quot;sectionbody&quot;&gt;
+      &lt;div class=&quot;paragraph&quot;&gt;
+      &lt;p&gt;A custom CapeDwarf OpenShift cartridge is in the making as we speak, so you should be able to develop GAE apps against OpenShift and CapeDwarf in no time.&lt;/p&gt;
+      &lt;/div&gt;
+      &lt;/div&gt;
+      &lt;/div&gt;
+      &lt;div class=&quot;sect1&quot;&gt;
+      &lt;h2 id=&quot;wrap-up&quot;&gt;
+      &lt;a class=&quot;anchor&quot; href=&quot;#wrap-up&quot;&gt;&lt;/a&gt;Wrap-up&lt;/h2&gt;
+      &lt;div class=&quot;sectionbody&quot;&gt;
+      &lt;div class=&quot;paragraph&quot;&gt;
+      &lt;p&gt;CapeDwarf JIRA:&lt;/p&gt;
+      &lt;/div&gt;
+      &lt;div class=&quot;ulist&quot;&gt;
+      &lt;ul&gt;
+      &lt;li&gt;
+      &lt;p&gt;&lt;a href=&quot;https://issues.jboss.org/browse/CAPEDWARF&quot;&gt;https://issues.jboss.org/browse/CAPEDWARF&lt;/a&gt;&lt;/p&gt;
+      &lt;/li&gt;
+      &lt;/ul&gt;
+      &lt;/div&gt;
+      &lt;div class=&quot;paragraph&quot;&gt;
+      &lt;p&gt;CapeDwarf User forum:&lt;/p&gt;
+      &lt;/div&gt;
+      &lt;div class=&quot;ulist&quot;&gt;
+      &lt;ul&gt;
+      &lt;li&gt;
+      &lt;p&gt;&lt;a href=&quot;https://community.jboss.org/en/capedwarf&quot;&gt;https://community.jboss.org/en/capedwarf&lt;/a&gt;&lt;/p&gt;
+      &lt;/li&gt;
+      &lt;/ul&gt;
+      &lt;/div&gt;
+      &lt;div class=&quot;paragraph&quot;&gt;
+      &lt;p&gt;CapeDwarf IRC:&lt;/p&gt;
+      &lt;/div&gt;
+      &lt;div class=&quot;ulist&quot;&gt;
+      &lt;ul&gt;
+      &lt;li&gt;
+      &lt;p&gt;#capedwarf on Freenode&lt;/p&gt;
+      &lt;/li&gt;
+      &lt;/ul&gt;
+      &lt;/div&gt;
+      &lt;div class=&quot;paragraph&quot;&gt;
+      &lt;p&gt;Or shoot me an email directly.&lt;/p&gt;
+      &lt;/div&gt;
+      &lt;div class=&quot;paragraph&quot;&gt;
+      &lt;p&gt;Enjoy using CapeDwarf as we enjoy developing it, and do let us know any issues or feedback you might have.&lt;/p&gt;
+      &lt;/div&gt;
+      &lt;/div&gt;
+      &lt;/div&gt;
+    </content>
+  </entry>
+</feed>
